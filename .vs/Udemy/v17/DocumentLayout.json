@@ -1,0 +1,1088 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{14503ABF-311E-4585-8A6C-77F2B9265326}|Udemy\\Udemy.csproj|c:\\users\\nitesh yadav\\source\\repos\\udemy\\udemy\\udemy\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{14503ABF-311E-4585-8A6C-77F2B9265326}|Udemy\\Udemy.csproj|solutionrelative:udemy\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14503ABF-311E-4585-8A6C-77F2B9265326}|Udemy\\Udemy.csproj|c:\\users\\nitesh yadav\\source\\repos\\udemy\\udemy\\udemy\\views\\admin\\admindashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{14503ABF-311E-4585-8A6C-77F2B9265326}|Udemy\\Udemy.csproj|solutionrelative:udemy\\views\\admin\\admindashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14503ABF-311E-4585-8A6C-77F2B9265326}|Udemy\\Udemy.csproj|c:\\users\\nitesh yadav\\source\\repos\\udemy\\udemy\\udemy\\wwwroot\\css\\new.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{14503ABF-311E-4585-8A6C-77F2B9265326}|Udemy\\Udemy.csproj|solutionrelative:udemy\\wwwroot\\css\\new.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14503ABF-311E-4585-8A6C-77F2B9265326}|Udemy\\Udemy.csproj|c:\\users\\nitesh yadav\\source\\repos\\udemy\\udemy\\udemy\\views\\user\\userdashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{14503ABF-311E-4585-8A6C-77F2B9265326}|Udemy\\Udemy.csproj|solutionrelative:udemy\\views\\user\\userdashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14503ABF-311E-4585-8A6C-77F2B9265326}|Udemy\\Udemy.csproj|c:\\users\\nitesh yadav\\source\\repos\\udemy\\udemy\\udemy\\models\\userdashboardviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14503ABF-311E-4585-8A6C-77F2B9265326}|Udemy\\Udemy.csproj|solutionrelative:udemy\\models\\userdashboardviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14503ABF-311E-4585-8A6C-77F2B9265326}|Udemy\\Udemy.csproj|c:\\users\\nitesh yadav\\source\\repos\\udemy\\udemy\\udemy\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14503ABF-311E-4585-8A6C-77F2B9265326}|Udemy\\Udemy.csproj|solutionrelative:udemy\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14503ABF-311E-4585-8A6C-77F2B9265326}|Udemy\\Udemy.csproj|c:\\users\\nitesh yadav\\source\\repos\\udemy\\udemy\\udemy\\models\\purchasedtopic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14503ABF-311E-4585-8A6C-77F2B9265326}|Udemy\\Udemy.csproj|solutionrelative:udemy\\models\\purchasedtopic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14503ABF-311E-4585-8A6C-77F2B9265326}|Udemy\\Udemy.csproj|c:\\users\\nitesh yadav\\source\\repos\\udemy\\udemy\\udemy\\models\\purchase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14503ABF-311E-4585-8A6C-77F2B9265326}|Udemy\\Udemy.csproj|solutionrelative:udemy\\models\\purchase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14503ABF-311E-4585-8A6C-77F2B9265326}|Udemy\\Udemy.csproj|c:\\users\\nitesh yadav\\source\\repos\\udemy\\udemy\\udemy\\models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14503ABF-311E-4585-8A6C-77F2B9265326}|Udemy\\Udemy.csproj|solutionrelative:udemy\\models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14503ABF-311E-4585-8A6C-77F2B9265326}|Udemy\\Udemy.csproj|c:\\users\\nitesh yadav\\source\\repos\\udemy\\udemy\\udemy\\models\\sql.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14503ABF-311E-4585-8A6C-77F2B9265326}|Udemy\\Udemy.csproj|solutionrelative:udemy\\models\\sql.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14503ABF-311E-4585-8A6C-77F2B9265326}|Udemy\\Udemy.csproj|c:\\users\\nitesh yadav\\source\\repos\\udemy\\udemy\\udemy\\models\\topic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14503ABF-311E-4585-8A6C-77F2B9265326}|Udemy\\Udemy.csproj|solutionrelative:udemy\\models\\topic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14503ABF-311E-4585-8A6C-77F2B9265326}|Udemy\\Udemy.csproj|c:\\users\\nitesh yadav\\source\\repos\\udemy\\udemy\\udemy\\views\\user\\checkout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{14503ABF-311E-4585-8A6C-77F2B9265326}|Udemy\\Udemy.csproj|solutionrelative:udemy\\views\\user\\checkout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14503ABF-311E-4585-8A6C-77F2B9265326}|Udemy\\Udemy.csproj|c:\\users\\nitesh yadav\\source\\repos\\udemy\\udemy\\udemy\\views\\shared\\_razorpaycheckoutscript.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{14503ABF-311E-4585-8A6C-77F2B9265326}|Udemy\\Udemy.csproj|solutionrelative:udemy\\views\\shared\\_razorpaycheckoutscript.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14503ABF-311E-4585-8A6C-77F2B9265326}|Udemy\\Udemy.csproj|c:\\users\\nitesh yadav\\source\\repos\\udemy\\udemy\\udemy\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{14503ABF-311E-4585-8A6C-77F2B9265326}|Udemy\\Udemy.csproj|solutionrelative:udemy\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14503ABF-311E-4585-8A6C-77F2B9265326}|Udemy\\Udemy.csproj|c:\\users\\nitesh yadav\\source\\repos\\udemy\\udemy\\udemy\\models\\admindashboardviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14503ABF-311E-4585-8A6C-77F2B9265326}|Udemy\\Udemy.csproj|solutionrelative:udemy\\models\\admindashboardviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14503ABF-311E-4585-8A6C-77F2B9265326}|Udemy\\Udemy.csproj|c:\\users\\nitesh yadav\\source\\repos\\udemy\\udemy\\udemy\\helpers\\videohelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14503ABF-311E-4585-8A6C-77F2B9265326}|Udemy\\Udemy.csproj|solutionrelative:udemy\\helpers\\videohelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14503ABF-311E-4585-8A6C-77F2B9265326}|Udemy\\Udemy.csproj|c:\\users\\nitesh yadav\\source\\repos\\udemy\\udemy\\udemy\\views\\admin\\uploadtopic.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{14503ABF-311E-4585-8A6C-77F2B9265326}|Udemy\\Udemy.csproj|solutionrelative:udemy\\views\\admin\\uploadtopic.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Udemy\\Migrations\\20240708030753_m1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Udemy\\Migrations\\20240708030753_m1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14503ABF-311E-4585-8A6C-77F2B9265326}|Udemy\\Udemy.csproj|c:\\users\\nitesh yadav\\source\\repos\\udemy\\udemy\\udemy\\udemy.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{14503ABF-311E-4585-8A6C-77F2B9265326}|Udemy\\Udemy.csproj|solutionrelative:udemy\\udemy.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14503ABF-311E-4585-8A6C-77F2B9265326}|Udemy\\Udemy.csproj|c:\\users\\nitesh yadav\\source\\repos\\udemy\\udemy\\udemy\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14503ABF-311E-4585-8A6C-77F2B9265326}|Udemy\\Udemy.csproj|solutionrelative:udemy\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14503ABF-311E-4585-8A6C-77F2B9265326}|Udemy\\Udemy.csproj|c:\\users\\nitesh yadav\\source\\repos\\udemy\\udemy\\udemy\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14503ABF-311E-4585-8A6C-77F2B9265326}|Udemy\\Udemy.csproj|solutionrelative:udemy\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14503ABF-311E-4585-8A6C-77F2B9265326}|Udemy\\Udemy.csproj|c:\\users\\nitesh yadav\\source\\repos\\udemy\\udemy\\udemy\\views\\shared\\_userlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{14503ABF-311E-4585-8A6C-77F2B9265326}|Udemy\\Udemy.csproj|solutionrelative:udemy\\views\\shared\\_userlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14503ABF-311E-4585-8A6C-77F2B9265326}|Udemy\\Udemy.csproj|c:\\users\\nitesh yadav\\source\\repos\\udemy\\udemy\\udemy\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14503ABF-311E-4585-8A6C-77F2B9265326}|Udemy\\Udemy.csproj|solutionrelative:udemy\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14503ABF-311E-4585-8A6C-77F2B9265326}|Udemy\\Udemy.csproj|c:\\users\\nitesh yadav\\source\\repos\\udemy\\udemy\\udemy\\models\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14503ABF-311E-4585-8A6C-77F2B9265326}|Udemy\\Udemy.csproj|solutionrelative:udemy\\models\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14503ABF-311E-4585-8A6C-77F2B9265326}|Udemy\\Udemy.csproj|c:\\users\\nitesh yadav\\source\\repos\\udemy\\udemy\\udemy\\models\\signupviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14503ABF-311E-4585-8A6C-77F2B9265326}|Udemy\\Udemy.csproj|solutionrelative:udemy\\models\\signupviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14503ABF-311E-4585-8A6C-77F2B9265326}|Udemy\\Udemy.csproj|c:\\users\\nitesh yadav\\source\\repos\\udemy\\udemy\\udemy\\views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{14503ABF-311E-4585-8A6C-77F2B9265326}|Udemy\\Udemy.csproj|solutionrelative:udemy\\views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14503ABF-311E-4585-8A6C-77F2B9265326}|Udemy\\Udemy.csproj|c:\\users\\nitesh yadav\\source\\repos\\udemy\\udemy\\udemy\\models\\paymentslipviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14503ABF-311E-4585-8A6C-77F2B9265326}|Udemy\\Udemy.csproj|solutionrelative:udemy\\models\\paymentslipviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14503ABF-311E-4585-8A6C-77F2B9265326}|Udemy\\Udemy.csproj|c:\\users\\nitesh yadav\\source\\repos\\udemy\\udemy\\udemy\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14503ABF-311E-4585-8A6C-77F2B9265326}|Udemy\\Udemy.csproj|solutionrelative:udemy\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14503ABF-311E-4585-8A6C-77F2B9265326}|Udemy\\Udemy.csproj|c:\\users\\nitesh yadav\\source\\repos\\udemy\\udemy\\udemy\\models\\stripesettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14503ABF-311E-4585-8A6C-77F2B9265326}|Udemy\\Udemy.csproj|solutionrelative:udemy\\models\\stripesettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Migrations\\20240706182638_m1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20240706182638_m1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14503ABF-311E-4585-8A6C-77F2B9265326}|Udemy\\Udemy.csproj|c:\\users\\nitesh yadav\\source\\repos\\udemy\\udemy\\udemy\\models\\asp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14503ABF-311E-4585-8A6C-77F2B9265326}|Udemy\\Udemy.csproj|solutionrelative:udemy\\models\\asp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14503ABF-311E-4585-8A6C-77F2B9265326}|Udemy\\Udemy.csproj|c:\\users\\nitesh yadav\\source\\repos\\udemy\\udemy\\udemy\\models\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14503ABF-311E-4585-8A6C-77F2B9265326}|Udemy\\Udemy.csproj|solutionrelative:udemy\\models\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14503ABF-311E-4585-8A6C-77F2B9265326}|Udemy\\Udemy.csproj|c:\\users\\nitesh yadav\\source\\repos\\udemy\\udemy\\udemy\\models\\invoiceviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14503ABF-311E-4585-8A6C-77F2B9265326}|Udemy\\Udemy.csproj|solutionrelative:udemy\\models\\invoiceviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14503ABF-311E-4585-8A6C-77F2B9265326}|Udemy\\Udemy.csproj|c:\\users\\nitesh yadav\\source\\repos\\udemy\\udemy\\udemy\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{14503ABF-311E-4585-8A6C-77F2B9265326}|Udemy\\Udemy.csproj|solutionrelative:udemy\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14503ABF-311E-4585-8A6C-77F2B9265326}|Udemy\\Udemy.csproj|c:\\users\\nitesh yadav\\source\\repos\\udemy\\udemy\\udemy\\views\\shared\\_loginlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{14503ABF-311E-4585-8A6C-77F2B9265326}|Udemy\\Udemy.csproj|solutionrelative:udemy\\views\\shared\\_loginlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Migrations\\20240706161509_m1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20240706161509_m1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14503ABF-311E-4585-8A6C-77F2B9265326}|Udemy\\Udemy.csproj|c:\\users\\nitesh yadav\\source\\repos\\udemy\\udemy\\udemy\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14503ABF-311E-4585-8A6C-77F2B9265326}|Udemy\\Udemy.csproj|solutionrelative:udemy\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14503ABF-311E-4585-8A6C-77F2B9265326}|Udemy\\Udemy.csproj|c:\\users\\nitesh yadav\\source\\repos\\udemy\\udemy\\udemy\\views\\shared\\_layoutcsharp.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{14503ABF-311E-4585-8A6C-77F2B9265326}|Udemy\\Udemy.csproj|solutionrelative:udemy\\views\\shared\\_layoutcsharp.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14503ABF-311E-4585-8A6C-77F2B9265326}|Udemy\\Udemy.csproj|c:\\users\\nitesh yadav\\source\\repos\\udemy\\udemy\\udemy\\views\\shared\\_subscriptionlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{14503ABF-311E-4585-8A6C-77F2B9265326}|Udemy\\Udemy.csproj|solutionrelative:udemy\\views\\shared\\_subscriptionlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14503ABF-311E-4585-8A6C-77F2B9265326}|Udemy\\Udemy.csproj|c:\\users\\nitesh yadav\\source\\repos\\udemy\\udemy\\udemy\\models\\csharp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14503ABF-311E-4585-8A6C-77F2B9265326}|Udemy\\Udemy.csproj|solutionrelative:udemy\\models\\csharp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14503ABF-311E-4585-8A6C-77F2B9265326}|Udemy\\Udemy.csproj|c:\\users\\nitesh yadav\\source\\repos\\udemy\\udemy\\udemy\\models\\checkoutviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14503ABF-311E-4585-8A6C-77F2B9265326}|Udemy\\Udemy.csproj|solutionrelative:udemy\\models\\checkoutviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14503ABF-311E-4585-8A6C-77F2B9265326}|Udemy\\Udemy.csproj|c:\\users\\nitesh yadav\\source\\repos\\udemy\\udemy\\udemy\\views\\account\\subscriptionplans.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{14503ABF-311E-4585-8A6C-77F2B9265326}|Udemy\\Udemy.csproj|solutionrelative:udemy\\views\\account\\subscriptionplans.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14503ABF-311E-4585-8A6C-77F2B9265326}|Udemy\\Udemy.csproj|c:\\users\\nitesh yadav\\source\\repos\\udemy\\udemy\\udemy\\wwwroot\\css\\site1.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{14503ABF-311E-4585-8A6C-77F2B9265326}|Udemy\\Udemy.csproj|solutionrelative:udemy\\wwwroot\\css\\site1.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Migrations\\20240705223404_m1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20240705223404_m1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Migrations\\20240705220229_m1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20240705220229_m1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Migrations\\20240705220111_m2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20240705220111_m2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14503ABF-311E-4585-8A6C-77F2B9265326}|Udemy\\Udemy.csproj|c:\\users\\nitesh yadav\\source\\repos\\udemy\\udemy\\udemy\\views\\shared\\_asp.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{14503ABF-311E-4585-8A6C-77F2B9265326}|Udemy\\Udemy.csproj|solutionrelative:udemy\\views\\shared\\_asp.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14503ABF-311E-4585-8A6C-77F2B9265326}|Udemy\\Udemy.csproj|c:\\users\\nitesh yadav\\source\\repos\\udemy\\udemy\\udemy\\views\\account\\asp.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{14503ABF-311E-4585-8A6C-77F2B9265326}|Udemy\\Udemy.csproj|solutionrelative:udemy\\views\\account\\asp.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Migrations\\20240705163011_m1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20240705163011_m1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Migrations\\20240705161945_m1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20240705161945_m1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Migrations\\20240705160240_secound.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20240705160240_secound.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14503ABF-311E-4585-8A6C-77F2B9265326}|Udemy\\Udemy.csproj|c:\\users\\nitesh yadav\\source\\repos\\udemy\\udemy\\udemy\\views\\account\\signup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{14503ABF-311E-4585-8A6C-77F2B9265326}|Udemy\\Udemy.csproj|solutionrelative:udemy\\views\\account\\signup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Migrations\\20240704232357_InitialCreateLsigning.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20240704232357_InitialCreateLsigning.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14503ABF-311E-4585-8A6C-77F2B9265326}|Udemy\\Udemy.csproj|c:\\users\\nitesh yadav\\source\\repos\\udemy\\udemy\\udemy\\views\\shared\\_sql.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{14503ABF-311E-4585-8A6C-77F2B9265326}|Udemy\\Udemy.csproj|solutionrelative:udemy\\views\\shared\\_sql.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14503ABF-311E-4585-8A6C-77F2B9265326}|Udemy\\Udemy.csproj|c:\\users\\nitesh yadav\\source\\repos\\udemy\\udemy\\udemy\\views\\shared\\_asp.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14503ABF-311E-4585-8A6C-77F2B9265326}|Udemy\\Udemy.csproj|solutionrelative:udemy\\views\\shared\\_asp.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14503ABF-311E-4585-8A6C-77F2B9265326}|Udemy\\Udemy.csproj|c:\\users\\nitesh yadav\\source\\repos\\udemy\\udemy\\udemy\\views\\account\\sql.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{14503ABF-311E-4585-8A6C-77F2B9265326}|Udemy\\Udemy.csproj|solutionrelative:udemy\\views\\account\\sql.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14503ABF-311E-4585-8A6C-77F2B9265326}|Udemy\\Udemy.csproj|c:\\users\\nitesh yadav\\source\\repos\\udemy\\udemy\\udemy\\views\\account\\csharp.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{14503ABF-311E-4585-8A6C-77F2B9265326}|Udemy\\Udemy.csproj|solutionrelative:udemy\\views\\account\\csharp.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14503ABF-311E-4585-8A6C-77F2B9265326}|Udemy\\Udemy.csproj|c:\\users\\nitesh yadav\\source\\repos\\udemy\\udemy\\udemy\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{14503ABF-311E-4585-8A6C-77F2B9265326}|Udemy\\Udemy.csproj|solutionrelative:udemy\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14503ABF-311E-4585-8A6C-77F2B9265326}|Udemy\\Udemy.csproj|c:\\users\\nitesh yadav\\source\\repos\\udemy\\udemy\\udemy\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{14503ABF-311E-4585-8A6C-77F2B9265326}|Udemy\\Udemy.csproj|solutionrelative:udemy\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14503ABF-311E-4585-8A6C-77F2B9265326}|Udemy\\Udemy.csproj|c:\\users\\nitesh yadav\\source\\repos\\udemy\\udemy\\udemy\\wwwroot\\css\\planeandpricing.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{14503ABF-311E-4585-8A6C-77F2B9265326}|Udemy\\Udemy.csproj|solutionrelative:udemy\\wwwroot\\css\\planeandpricing.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14503ABF-311E-4585-8A6C-77F2B9265326}|Udemy\\Udemy.csproj|c:\\users\\nitesh yadav\\source\\repos\\udemy\\udemy\\udemy\\wwwroot\\css\\lastone.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{14503ABF-311E-4585-8A6C-77F2B9265326}|Udemy\\Udemy.csproj|solutionrelative:udemy\\wwwroot\\css\\lastone.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14503ABF-311E-4585-8A6C-77F2B9265326}|Udemy\\Udemy.csproj|c:\\users\\nitesh yadav\\source\\repos\\udemy\\udemy\\udemy\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{14503ABF-311E-4585-8A6C-77F2B9265326}|Udemy\\Udemy.csproj|solutionrelative:udemy\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14503ABF-311E-4585-8A6C-77F2B9265326}|Udemy\\Udemy.csproj|c:\\users\\nitesh yadav\\source\\repos\\udemy\\udemy\\udemy\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{14503ABF-311E-4585-8A6C-77F2B9265326}|Udemy\\Udemy.csproj|solutionrelative:udemy\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14503ABF-311E-4585-8A6C-77F2B9265326}|Udemy\\Udemy.csproj|c:\\users\\nitesh yadav\\source\\repos\\udemy\\udemy\\udemy\\wwwroot\\css\\review.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{14503ABF-311E-4585-8A6C-77F2B9265326}|Udemy\\Udemy.csproj|solutionrelative:udemy\\wwwroot\\css\\review.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14503ABF-311E-4585-8A6C-77F2B9265326}|Udemy\\Udemy.csproj|c:\\users\\nitesh yadav\\source\\repos\\udemy\\udemy\\udemy\\wwwroot\\css\\aftercertificate.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{14503ABF-311E-4585-8A6C-77F2B9265326}|Udemy\\Udemy.csproj|solutionrelative:udemy\\wwwroot\\css\\aftercertificate.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14503ABF-311E-4585-8A6C-77F2B9265326}|Udemy\\Udemy.csproj|c:\\users\\nitesh yadav\\source\\repos\\udemy\\udemy\\udemy\\wwwroot\\images\\udemy_logo.svg.png||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{14503ABF-311E-4585-8A6C-77F2B9265326}|Udemy\\Udemy.csproj|solutionrelative:udemy\\wwwroot\\images\\udemy_logo.svg.png||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14503ABF-311E-4585-8A6C-77F2B9265326}|Udemy\\Udemy.csproj|c:\\users\\nitesh yadav\\source\\repos\\udemy\\udemy\\udemy\\migrations\\20240708034534_m2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14503ABF-311E-4585-8A6C-77F2B9265326}|Udemy\\Udemy.csproj|solutionrelative:udemy\\migrations\\20240708034534_m2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Udemy\\Program.cs",
+              "RelativeDocumentMoniker": "Udemy\\Program.cs",
+              "ToolTip": "C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Udemy\\Program.cs",
+              "RelativeToolTip": "Udemy\\Program.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAQwCwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-02T14:43:52.285Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "sql.cs",
+              "DocumentMoniker": "C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Udemy\\Models\\sql.cs",
+              "RelativeDocumentMoniker": "Udemy\\Models\\sql.cs",
+              "ToolTip": "C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Udemy\\Models\\sql.cs",
+              "RelativeToolTip": "Udemy\\Models\\sql.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-04T20:37:52.705Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Purchase.cs",
+              "DocumentMoniker": "C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Udemy\\Models\\Purchase.cs",
+              "RelativeDocumentMoniker": "Udemy\\Models\\Purchase.cs",
+              "ToolTip": "C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Udemy\\Models\\Purchase.cs",
+              "RelativeToolTip": "Udemy\\Models\\Purchase.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAswBkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-06T16:12:36.227Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserDashboardViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Udemy\\Models\\UserDashboardViewModel.cs",
+              "RelativeDocumentMoniker": "Udemy\\Models\\UserDashboardViewModel.cs",
+              "ToolTip": "C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Udemy\\Models\\UserDashboardViewModel.cs",
+              "RelativeToolTip": "Udemy\\Models\\UserDashboardViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-05T02:36:31.404Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserDashboard.cshtml",
+              "DocumentMoniker": "C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Udemy\\Views\\User\\UserDashboard.cshtml",
+              "RelativeDocumentMoniker": "Udemy\\Views\\User\\UserDashboard.cshtml",
+              "ToolTip": "C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Udemy\\Views\\User\\UserDashboard.cshtml",
+              "RelativeToolTip": "Udemy\\Views\\User\\UserDashboard.cshtml",
+              "ViewState": "AQIAAIEAAAAAAAAAAAAYwJIAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-05T00:22:59.938Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Udemy\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Udemy\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Udemy\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Udemy\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAN8AAAAAAAAAAAAAAOgAAABWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-02T13:31:40.267Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AdminDashboard.cshtml",
+              "DocumentMoniker": "C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Udemy\\Views\\Admin\\AdminDashboard.cshtml",
+              "RelativeDocumentMoniker": "Udemy\\Views\\Admin\\AdminDashboard.cshtml",
+              "ToolTip": "C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Udemy\\Views\\Admin\\AdminDashboard.cshtml",
+              "RelativeToolTip": "Udemy\\Views\\Admin\\AdminDashboard.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC8AAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-05T00:03:51.293Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "new.css",
+              "DocumentMoniker": "C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Udemy\\wwwroot\\css\\new.css",
+              "RelativeDocumentMoniker": "Udemy\\wwwroot\\css\\new.css",
+              "ToolTip": "C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Udemy\\wwwroot\\css\\new.css",
+              "RelativeToolTip": "Udemy\\wwwroot\\css\\new.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-07-08T15:43:40.913Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CartItem.cs",
+              "DocumentMoniker": "C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Udemy\\Models\\CartItem.cs",
+              "RelativeDocumentMoniker": "Udemy\\Models\\CartItem.cs",
+              "ToolTip": "C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Udemy\\Models\\CartItem.cs",
+              "RelativeToolTip": "Udemy\\Models\\CartItem.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-05T22:18:26.875Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Udemy\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Udemy\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Udemy\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Udemy\\Controllers\\UserController.cs",
+              "ViewState": "AQIAAHUAAAAAAAAAAAAuwJEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-05T00:16:09.212Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Topic.cs",
+              "DocumentMoniker": "C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Udemy\\Models\\Topic.cs",
+              "RelativeDocumentMoniker": "Udemy\\Models\\Topic.cs",
+              "ToolTip": "C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Udemy\\Models\\Topic.cs",
+              "RelativeToolTip": "Udemy\\Models\\Topic.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-05T02:29:02.856Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PurchasedTopic.cs",
+              "DocumentMoniker": "C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Udemy\\Models\\PurchasedTopic.cs",
+              "RelativeDocumentMoniker": "Udemy\\Models\\PurchasedTopic.cs",
+              "ToolTip": "C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Udemy\\Models\\PurchasedTopic.cs",
+              "RelativeToolTip": "Udemy\\Models\\PurchasedTopic.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-08T02:55:53.329Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Checkout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Udemy\\Views\\User\\Checkout.cshtml",
+              "RelativeDocumentMoniker": "Udemy\\Views\\User\\Checkout.cshtml",
+              "ToolTip": "C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Udemy\\Views\\User\\Checkout.cshtml",
+              "RelativeToolTip": "Udemy\\Views\\User\\Checkout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-06T03:14:01.683Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "_RazorpayCheckoutScript.cshtml",
+              "DocumentMoniker": "C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Udemy\\Views\\Shared\\_RazorpayCheckoutScript.cshtml",
+              "RelativeDocumentMoniker": "Udemy\\Views\\Shared\\_RazorpayCheckoutScript.cshtml",
+              "ToolTip": "C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Udemy\\Views\\Shared\\_RazorpayCheckoutScript.cshtml",
+              "RelativeToolTip": "Udemy\\Views\\Shared\\_RazorpayCheckoutScript.cshtml",
+              "ViewState": "AQIAABUAAAAAAAAAAAAgwC4AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-08T03:38:21.811Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "20240708034534_m2.cs",
+              "DocumentMoniker": "C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Udemy\\Migrations\\20240708034534_m2.cs",
+              "RelativeDocumentMoniker": "Udemy\\Migrations\\20240708034534_m2.cs",
+              "ToolTip": "C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Udemy\\Migrations\\20240708034534_m2.cs",
+              "RelativeToolTip": "Udemy\\Migrations\\20240708034534_m2.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-08T03:45:35.074Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Udemy\\appsettings.json",
+              "RelativeDocumentMoniker": "Udemy\\appsettings.json",
+              "ToolTip": "C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Udemy\\appsettings.json",
+              "RelativeToolTip": "Udemy\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAABJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-02T14:48:21.523Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AdminDashboardViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Udemy\\Models\\AdminDashboardViewModel.cs",
+              "RelativeDocumentMoniker": "Udemy\\Models\\AdminDashboardViewModel.cs",
+              "ToolTip": "C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Udemy\\Models\\AdminDashboardViewModel.cs",
+              "RelativeToolTip": "Udemy\\Models\\AdminDashboardViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-05T02:52:27.22Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "VideoHelper.cs",
+              "DocumentMoniker": "C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Udemy\\Helpers\\VideoHelper.cs",
+              "RelativeDocumentMoniker": "Udemy\\Helpers\\VideoHelper.cs",
+              "ToolTip": "C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Udemy\\Helpers\\VideoHelper.cs",
+              "RelativeToolTip": "Udemy\\Helpers\\VideoHelper.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-08T03:21:26.606Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "UploadTopic.cshtml",
+              "DocumentMoniker": "C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Udemy\\Views\\Admin\\UploadTopic.cshtml",
+              "RelativeDocumentMoniker": "Udemy\\Views\\Admin\\UploadTopic.cshtml",
+              "ToolTip": "C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Udemy\\Views\\Admin\\UploadTopic.cshtml",
+              "RelativeToolTip": "Udemy\\Views\\Admin\\UploadTopic.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-05T02:30:50.348Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "20240708030753_m1.cs",
+              "DocumentMoniker": "C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Udemy\\Migrations\\20240708030753_m1.cs",
+              "RelativeDocumentMoniker": "Udemy\\Migrations\\20240708030753_m1.cs",
+              "ToolTip": "C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Udemy\\Migrations\\20240708030753_m1.cs",
+              "RelativeToolTip": "Udemy\\Migrations\\20240708030753_m1.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-08T03:07:53.424Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Udemy.csproj",
+              "DocumentMoniker": "C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Udemy\\Udemy.csproj",
+              "RelativeDocumentMoniker": "Udemy\\Udemy.csproj",
+              "ToolTip": "C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Udemy\\Udemy.csproj",
+              "RelativeToolTip": "Udemy\\Udemy.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-07-05T16:34:39.272Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Udemy\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Udemy\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Udemy\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Udemy\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-04T03:24:05.876Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Udemy\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Udemy\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Udemy\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Udemy\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-02T14:46:35.482Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "_UserLayout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Udemy\\Views\\Shared\\_UserLayout.cshtml",
+              "RelativeDocumentMoniker": "Udemy\\Views\\Shared\\_UserLayout.cshtml",
+              "ToolTip": "C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Udemy\\Views\\Shared\\_UserLayout.cshtml",
+              "RelativeToolTip": "Udemy\\Views\\Shared\\_UserLayout.cshtml",
+              "ViewState": "AQIAAHAAAAAAAAAAAAAYwH4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-05T00:13:36.796Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Udemy\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Udemy\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Udemy\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Udemy\\Controllers\\AccountController.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAQwEAAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-02T14:53:23.295Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "LoginViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Udemy\\Models\\LoginViewModel.cs",
+              "RelativeDocumentMoniker": "Udemy\\Models\\LoginViewModel.cs",
+              "ToolTip": "C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Udemy\\Models\\LoginViewModel.cs",
+              "RelativeToolTip": "Udemy\\Models\\LoginViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-02T15:58:33.578Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "SignUpViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Udemy\\Models\\SignUpViewModel.cs",
+              "RelativeDocumentMoniker": "Udemy\\Models\\SignUpViewModel.cs",
+              "ToolTip": "C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Udemy\\Models\\SignUpViewModel.cs",
+              "RelativeToolTip": "Udemy\\Models\\SignUpViewModel.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAmwBYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-02T14:54:43.582Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "_AdminLayout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Udemy\\Views\\Shared\\_AdminLayout.cshtml",
+              "RelativeDocumentMoniker": "Udemy\\Views\\Shared\\_AdminLayout.cshtml",
+              "ToolTip": "C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Udemy\\Views\\Shared\\_AdminLayout.cshtml",
+              "RelativeToolTip": "Udemy\\Views\\Shared\\_AdminLayout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAHgAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-05T00:12:59.742Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "PaymentSlipViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Udemy\\Models\\PaymentSlipViewModel.cs",
+              "RelativeDocumentMoniker": "Udemy\\Models\\PaymentSlipViewModel.cs",
+              "ToolTip": "C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Udemy\\Models\\PaymentSlipViewModel.cs",
+              "RelativeToolTip": "Udemy\\Models\\PaymentSlipViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-06T21:11:44.31Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Udemy\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "Udemy\\Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Udemy\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "Udemy\\Controllers\\AdminController.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAAwCcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-05T00:02:42.715Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "StripeSettings.cs",
+              "DocumentMoniker": "C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Udemy\\Models\\StripeSettings.cs",
+              "RelativeDocumentMoniker": "Udemy\\Models\\StripeSettings.cs",
+              "ToolTip": "C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Udemy\\Models\\StripeSettings.cs",
+              "RelativeToolTip": "Udemy\\Models\\StripeSettings.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-04T14:36:55.3Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "asp.cs",
+              "DocumentMoniker": "C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Udemy\\Models\\asp.cs",
+              "RelativeDocumentMoniker": "Udemy\\Models\\asp.cs",
+              "ToolTip": "C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Udemy\\Models\\asp.cs",
+              "RelativeToolTip": "Udemy\\Models\\asp.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-05T18:04:32.08Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "20240706182638_m1.cs",
+              "DocumentMoniker": "C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Migrations\\20240706182638_m1.cs",
+              "RelativeDocumentMoniker": "Migrations\\20240706182638_m1.cs",
+              "ToolTip": "C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Migrations\\20240706182638_m1.cs",
+              "RelativeToolTip": "Migrations\\20240706182638_m1.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-06T18:26:38.495Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "RegisterViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Udemy\\Models\\RegisterViewModel.cs",
+              "RelativeDocumentMoniker": "Udemy\\Models\\RegisterViewModel.cs",
+              "ToolTip": "C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Udemy\\Models\\RegisterViewModel.cs",
+              "RelativeToolTip": "Udemy\\Models\\RegisterViewModel.cs",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAmwCUAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-04T15:26:24.828Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "InvoiceViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Udemy\\Models\\InvoiceViewModel.cs",
+              "RelativeDocumentMoniker": "Udemy\\Models\\InvoiceViewModel.cs",
+              "ToolTip": "C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Udemy\\Models\\InvoiceViewModel.cs",
+              "RelativeToolTip": "Udemy\\Models\\InvoiceViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-04T14:36:28.657Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Udemy\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "Udemy\\Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Udemy\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "Udemy\\Views\\Account\\Login.cshtml",
+              "ViewState": "AQIAAAwAAAAAAAAAAAArwBsAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-02T16:08:12.366Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "_LoginLayout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Udemy\\Views\\Shared\\_LoginLayout.cshtml",
+              "RelativeDocumentMoniker": "Udemy\\Views\\Shared\\_LoginLayout.cshtml",
+              "ToolTip": "C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Udemy\\Views\\Shared\\_LoginLayout.cshtml",
+              "RelativeToolTip": "Udemy\\Views\\Shared\\_LoginLayout.cshtml",
+              "ViewState": "AQIAAH0AAAAAAAAAAAAswJMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-05T19:59:35.986Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "20240706161509_m1.cs",
+              "DocumentMoniker": "C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Migrations\\20240706161509_m1.cs",
+              "RelativeDocumentMoniker": "Migrations\\20240706161509_m1.cs",
+              "ToolTip": "C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Migrations\\20240706161509_m1.cs",
+              "RelativeToolTip": "Migrations\\20240706161509_m1.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-06T16:15:09.256Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "_layoutcsharp.cshtml",
+              "DocumentMoniker": "C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Udemy\\Views\\Shared\\_layoutcsharp.cshtml",
+              "RelativeDocumentMoniker": "Udemy\\Views\\Shared\\_layoutcsharp.cshtml",
+              "ToolTip": "C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Udemy\\Views\\Shared\\_layoutcsharp.cshtml",
+              "RelativeToolTip": "Udemy\\Views\\Shared\\_layoutcsharp.cshtml",
+              "ViewState": "AQIAAFwAAAAAAAAAAAAswGUAAABuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-04T19:40:00.264Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "_SubscriptionLayout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Udemy\\Views\\Shared\\_SubscriptionLayout.cshtml",
+              "RelativeDocumentMoniker": "Udemy\\Views\\Shared\\_SubscriptionLayout.cshtml",
+              "ToolTip": "C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Udemy\\Views\\Shared\\_SubscriptionLayout.cshtml",
+              "RelativeToolTip": "Udemy\\Views\\Shared\\_SubscriptionLayout.cshtml",
+              "ViewState": "AQIAAAwAAAAAAAAAAIBJwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-05T19:38:56.517Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "csharp.cs",
+              "DocumentMoniker": "C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Udemy\\Models\\csharp.cs",
+              "RelativeDocumentMoniker": "Udemy\\Models\\csharp.cs",
+              "ToolTip": "C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Udemy\\Models\\csharp.cs",
+              "RelativeToolTip": "Udemy\\Models\\csharp.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-04T19:52:13.598Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "CheckoutViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Udemy\\Models\\CheckoutViewModel.cs",
+              "RelativeDocumentMoniker": "Udemy\\Models\\CheckoutViewModel.cs",
+              "ToolTip": "C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Udemy\\Models\\CheckoutViewModel.cs",
+              "RelativeToolTip": "Udemy\\Models\\CheckoutViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-04T14:36:01.514Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "SubscriptionPlans.cshtml",
+              "DocumentMoniker": "C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Udemy\\Views\\Account\\SubscriptionPlans.cshtml",
+              "RelativeDocumentMoniker": "Udemy\\Views\\Account\\SubscriptionPlans.cshtml",
+              "ToolTip": "C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Udemy\\Views\\Account\\SubscriptionPlans.cshtml",
+              "RelativeToolTip": "Udemy\\Views\\Account\\SubscriptionPlans.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-06T02:12:55.044Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "site1.css",
+              "DocumentMoniker": "C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Udemy\\wwwroot\\css\\site1.css",
+              "RelativeDocumentMoniker": "Udemy\\wwwroot\\css\\site1.css",
+              "ToolTip": "C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Udemy\\wwwroot\\css\\site1.css",
+              "RelativeToolTip": "Udemy\\wwwroot\\css\\site1.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-07-06T02:00:09.899Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "20240705223404_m1.cs",
+              "DocumentMoniker": "C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Migrations\\20240705223404_m1.cs",
+              "RelativeDocumentMoniker": "Migrations\\20240705223404_m1.cs",
+              "ToolTip": "C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Migrations\\20240705223404_m1.cs",
+              "RelativeToolTip": "Migrations\\20240705223404_m1.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-05T22:34:04.964Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "20240705220111_m2.cs",
+              "DocumentMoniker": "C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Migrations\\20240705220111_m2.cs",
+              "RelativeDocumentMoniker": "Migrations\\20240705220111_m2.cs",
+              "ToolTip": "C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Migrations\\20240705220111_m2.cs",
+              "RelativeToolTip": "Migrations\\20240705220111_m2.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-05T22:01:11.966Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "20240705220229_m1.cs",
+              "DocumentMoniker": "C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Migrations\\20240705220229_m1.cs",
+              "RelativeDocumentMoniker": "Migrations\\20240705220229_m1.cs",
+              "ToolTip": "C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Migrations\\20240705220229_m1.cs",
+              "RelativeToolTip": "Migrations\\20240705220229_m1.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-05T22:02:29.481Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "_asp.cshtml",
+              "DocumentMoniker": "C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Udemy\\Views\\Shared\\_asp.cshtml",
+              "RelativeDocumentMoniker": "Udemy\\Views\\Shared\\_asp.cshtml",
+              "ToolTip": "C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Udemy\\Views\\Shared\\_asp.cshtml",
+              "RelativeToolTip": "Udemy\\Views\\Shared\\_asp.cshtml",
+              "ViewState": "AQIAAFEAAAAAAAAAAAAkwGUAAABhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-04T20:56:17.159Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "asp.cshtml",
+              "DocumentMoniker": "C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Udemy\\Views\\Account\\asp.cshtml",
+              "RelativeDocumentMoniker": "Udemy\\Views\\Account\\asp.cshtml",
+              "ToolTip": "C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Udemy\\Views\\Account\\asp.cshtml",
+              "RelativeToolTip": "Udemy\\Views\\Account\\asp.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-04T20:47:53.542Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "20240705163011_m1.cs",
+              "DocumentMoniker": "C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Migrations\\20240705163011_m1.cs",
+              "RelativeDocumentMoniker": "Migrations\\20240705163011_m1.cs",
+              "ToolTip": "C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Migrations\\20240705163011_m1.cs",
+              "RelativeToolTip": "Migrations\\20240705163011_m1.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-05T16:30:12.297Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "20240705161945_m1.cs",
+              "DocumentMoniker": "C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Migrations\\20240705161945_m1.cs",
+              "RelativeDocumentMoniker": "Migrations\\20240705161945_m1.cs",
+              "ToolTip": "C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Migrations\\20240705161945_m1.cs",
+              "RelativeToolTip": "Migrations\\20240705161945_m1.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-05T16:19:46.156Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "20240705160240_secound.cs",
+              "DocumentMoniker": "C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Migrations\\20240705160240_secound.cs",
+              "RelativeDocumentMoniker": "Migrations\\20240705160240_secound.cs",
+              "ToolTip": "C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Migrations\\20240705160240_secound.cs",
+              "RelativeToolTip": "Migrations\\20240705160240_secound.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-05T16:02:40.939Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "SignUp.cshtml",
+              "DocumentMoniker": "C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Udemy\\Views\\Account\\SignUp.cshtml",
+              "RelativeDocumentMoniker": "Udemy\\Views\\Account\\SignUp.cshtml",
+              "ToolTip": "C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Udemy\\Views\\Account\\SignUp.cshtml",
+              "RelativeToolTip": "Udemy\\Views\\Account\\SignUp.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-02T14:56:09.355Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "20240704232357_InitialCreateLsigning.cs",
+              "DocumentMoniker": "C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Migrations\\20240704232357_InitialCreateLsigning.cs",
+              "RelativeDocumentMoniker": "Migrations\\20240704232357_InitialCreateLsigning.cs",
+              "ToolTip": "C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Migrations\\20240704232357_InitialCreateLsigning.cs",
+              "RelativeToolTip": "Migrations\\20240704232357_InitialCreateLsigning.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-04T23:23:57.425Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "_asp.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Udemy\\Views\\Shared\\_asp.cshtml.cs",
+              "RelativeDocumentMoniker": "Udemy\\Views\\Shared\\_asp.cshtml.cs",
+              "ToolTip": "C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Udemy\\Views\\Shared\\_asp.cshtml.cs",
+              "RelativeToolTip": "Udemy\\Views\\Shared\\_asp.cshtml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-04T20:56:31.99Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "_sql.cshtml",
+              "DocumentMoniker": "C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Udemy\\Views\\Shared\\_sql.cshtml",
+              "RelativeDocumentMoniker": "Udemy\\Views\\Shared\\_sql.cshtml",
+              "ToolTip": "C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Udemy\\Views\\Shared\\_sql.cshtml",
+              "RelativeToolTip": "Udemy\\Views\\Shared\\_sql.cshtml",
+              "ViewState": "AQIAAFMAAAAAAAAAAAAswGUAAABuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-04T20:31:34.906Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "sql.cshtml",
+              "DocumentMoniker": "C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Udemy\\Views\\Account\\sql.cshtml",
+              "RelativeDocumentMoniker": "Udemy\\Views\\Account\\sql.cshtml",
+              "ToolTip": "C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Udemy\\Views\\Account\\sql.cshtml",
+              "RelativeToolTip": "Udemy\\Views\\Account\\sql.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACkAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-04T20:29:13.453Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "csharp.cshtml",
+              "DocumentMoniker": "C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Udemy\\Views\\Account\\csharp.cshtml",
+              "RelativeDocumentMoniker": "Udemy\\Views\\Account\\csharp.cshtml",
+              "ToolTip": "C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Udemy\\Views\\Account\\csharp.cshtml",
+              "RelativeToolTip": "Udemy\\Views\\Account\\csharp.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-04T19:34:09.859Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Udemy\\Views\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "Udemy\\Views\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Udemy\\Views\\Account\\Register.cshtml",
+              "RelativeToolTip": "Udemy\\Views\\Account\\Register.cshtml",
+              "ViewState": "AQIAAEkAAAAAAAAAAADwv14AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-04T15:27:27.313Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Udemy\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Udemy\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Udemy\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Udemy\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-02T13:34:56.674Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "planeandpricing.css",
+              "DocumentMoniker": "C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Udemy\\wwwroot\\css\\planeandpricing.css",
+              "RelativeDocumentMoniker": "Udemy\\wwwroot\\css\\planeandpricing.css",
+              "ToolTip": "C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Udemy\\wwwroot\\css\\planeandpricing.css",
+              "RelativeToolTip": "Udemy\\wwwroot\\css\\planeandpricing.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-07-04T03:39:06.486Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "lastone.css",
+              "DocumentMoniker": "C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Udemy\\wwwroot\\css\\lastone.css",
+              "RelativeDocumentMoniker": "Udemy\\wwwroot\\css\\lastone.css",
+              "ToolTip": "C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Udemy\\wwwroot\\css\\lastone.css",
+              "RelativeToolTip": "Udemy\\wwwroot\\css\\lastone.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAGcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-07-02T22:53:08.068Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Udemy\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Udemy\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Udemy\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "Udemy\\Views\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-03T22:53:11.97Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Udemy\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "Udemy\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Udemy\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "Udemy\\wwwroot\\css\\site.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-07-02T13:45:12.733Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "Review.css",
+              "DocumentMoniker": "C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Udemy\\wwwroot\\css\\Review.css",
+              "RelativeDocumentMoniker": "Udemy\\wwwroot\\css\\Review.css",
+              "ToolTip": "C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Udemy\\wwwroot\\css\\Review.css",
+              "RelativeToolTip": "Udemy\\wwwroot\\css\\Review.css",
+              "ViewState": "AQIAACoAAAAAAAAAAIBpwDwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-07-02T21:19:07.569Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "aftercertificate.css",
+              "DocumentMoniker": "C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Udemy\\wwwroot\\css\\aftercertificate.css",
+              "RelativeDocumentMoniker": "Udemy\\wwwroot\\css\\aftercertificate.css",
+              "ToolTip": "C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Udemy\\wwwroot\\css\\aftercertificate.css",
+              "RelativeToolTip": "Udemy\\wwwroot\\css\\aftercertificate.css",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAwwDUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-07-02T21:10:08.716Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "Udemy_logo.svg.png -  [English (United Kingdom)] - PNG [2560x956, 32 bit, PNG]",
+              "DocumentMoniker": "C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Udemy\\wwwroot\\images\\Udemy_logo.svg.png",
+              "RelativeDocumentMoniker": "Udemy\\wwwroot\\images\\Udemy_logo.svg.png",
+              "ToolTip": "C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Udemy\\wwwroot\\images\\Udemy_logo.svg.png -  [English (United Kingdom)] - PNG [2560x956, 32 bit, PNG]",
+              "RelativeToolTip": "Udemy\\wwwroot\\images\\Udemy_logo.svg.png -  [English (United Kingdom)] - PNG [2560x956, 32 bit, PNG]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2024-07-02T13:44:22.772Z",
+              "EditorCaption": " -  [English (United Kingdom)] - PNG [2560x956, 32 bit, PNG]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

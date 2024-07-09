@@ -1,0 +1,155 @@
+﻿@model Udemy.Models.UserDashboardViewModel
+
+@{
+    Layout = "_UserLayout";
+    ViewData["Title"] = "User Dashboard";
+}
+
+<div class="container mt-5">
+    <h2>User Dashboard</h2>
+
+    <div class="row">
+        <div class="col-md-4">
+            <h3>Filter by Language</h3>
+            <form method="get" asp-action="UserDashboard" id="filterForm">
+                <select class="form-control" name="language" onchange="document.getElementById('filterForm').submit();">
+                    <option value="">Select Language</option>
+                    <option value="C#">C#</option>
+                    <option value="SQL">SQL</option>
+                    <option value="ASP.NET">ASP.NET</option>
+                </select>
+            </form>
+        </div>
+    </div>
+
+    @if (!string.IsNullOrEmpty(Model.Language))
+    {
+        <div class="row mt-4">
+            <div class="col-md-8">
+                <h3>Topics</h3>
+                <ul class="list-group">
+                    @foreach (var topic in Model.Topics)
+                    {
+                        <li class="list-group-item">
+                            <div>
+                                <span>@topic.TopicName</span>
+                                <br />
+                                @if (Model.PurchasedTopics.Contains(topic.Id))
+                                {
+                                    <iframe width="560" height="315" src="@GetEmbedUrl(topic.VideoUrl)" frameborder="0" allowfullscreen></iframe>
+                                }
+                                else
+                                {
+                                    <span class="text-muted">Video available after purchase</span>
+                                }
+                            </div>
+                            <span>₹@topic.Price.ToString("F2")</span>
+                            <form asp-action="AddToCart" method="post" class="mt-3">
+                                <input type="hidden" name="topicId" value="@topic.Id" />
+                                <button type="submit" class="btn btn-primary btn-sm" @(Model.PurchasedTopics.Contains(topic.Id) ? "disabled" : "")>Add to Cart</button>
+                            </form>
+                        </li>
+                    }
+                </ul>
+            </div>
+
+            <div class="col-md-4">
+                <h3>Cart</h3>
+                <ul class="list-group">
+                    @foreach (var cartItem in Model.CartItems)
+                    {
+                        <li class="list-group-item">
+                            <div>
+                                <span>@cartItem.Topic?.TopicName</span>
+                                <br />
+                                <span>₹@cartItem.Topic?.Price.ToString("F2")</span>
+                            </div>
+                            <form asp-action="RemoveFromCart" method="post" class="mt-3">
+                                <input type="hidden" name="cartItemId" value="@cartItem.Id" />
+                                <button type="submit" class="btn btn-danger btn-sm">Remove</button>
+                            </form>
+                        </li>
+                    }
+                </ul>
+                <div class="mt-3">
+                    <strong>Total Amount:</strong> ₹@Model.TotalAmount.ToString("F2")
+                </div>
+            </div>
+        </div>
+    }
+
+    <button id="checkoutButton" class="btn btn-success mt-3">Checkout</button>
+    <div id="paymentSuccess" class="alert alert-success mt-3" style="display: none;">
+        Payment successfully completed!
+    </div>
+    <div id="videoSection" class="mt-3" style="display: none;">
+        <h3>Purchased Videos</h3>
+        <div id="videos"></div>
+        <a id="downloadSlipButton" class="btn btn-primary mt-3" style="display: none;">Download Your Payment Slip</a>
+    </div>
+</div>
+
+@section Scripts {
+    <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+    <script>
+        var razorpayOptions = {
+            key: 'rzp_test_jFtPE0IAzY0xmG', // Ensure this key is correctly set in your model
+            amount: @Model.TotalAmount * 100, // Convert to paisa
+            currency: 'INR',
+            name: 'Your Company Name',
+            description: 'Purchase Courses',
+            handler: function (response) {
+                var razorpayPaymentId = response.razorpay_payment_id;
+                // Make an AJAX request to confirm payment on the server
+                $.post('@Url.Action("ConfirmPayment", "User")', { razorpayPaymentId: razorpayPaymentId }, function (data) {
+                    $('#paymentSuccess').show();
+                    $('#checkoutButton').hide();
+                    $('#videoSection').show();
+                    $('#downloadSlipButton').show().attr('href', '@Url.Action("DownloadPaymentSlip", "User")?paymentId=' + data.paymentId);
+                    // Display the purchased videos
+                    var videos = $('#videos');
+                    videos.empty();
+                    data.purchasedVideos.forEach(function (video) {
+                        var videoElement = $('<iframe width="560" height="315" frameborder="0" allowfullscreen></iframe>');
+                        videoElement.attr('src', getEmbedUrl(video.VideoUrl));
+                        videos.append('<h4>' + video.TopicName + '</h4>').append(videoElement);
+                    });
+                });
+            }
+        };
+
+        var checkoutButton = document.getElementById('checkoutButton');
+        checkoutButton.onclick = function () {
+            var rzp = new Razorpay(razorpayOptions);
+            rzp.open();
+        };
+
+        function getEmbedUrl(videoUrl) {
+            if (videoUrl.includes("youtube.com/watch")) {
+                return videoUrl.replace("watch?v=", "embed/");
+            } else if (videoUrl.includes("youtu.be/")) {
+                return videoUrl.replace("youtu.be/", "youtube.com/embed/");
+            } else {
+                return videoUrl;
+            }
+        }
+    </script>
+}
+
+@functions {
+    private string GetEmbedUrl(string videoUrl)
+    {
+        if (videoUrl.Contains("youtube.com/watch"))
+        {
+            return videoUrl.Replace("watch?v=", "embed/");
+        }
+        else if (videoUrl.Contains("youtu.be/"))
+        {
+            return videoUrl.Replace("youtu.be/", "youtube.com/embed/");
+        }
+        else
+        {
+            return videoUrl;
+        }
+    }
+}

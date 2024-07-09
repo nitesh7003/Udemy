@@ -1,0 +1,69 @@
+﻿
+.features-container {
+    display: flex;
+    gap: 20px;
+}
+
+.features-section {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.feature-card {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.feature-icon {
+    font-size: 40px;
+    margin-right: 20px;
+}
+
+.feature-content {
+    flex: 1;
+}
+
+.feature-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0 0 10px 0;
+}
+
+.feature-description {
+    font-size: 16px;
+    color: #555;
+    margin: 0;
+}
+
+.enterprise-plan {
+    display: inline-block;
+    background: #e5e1fb;
+    color: #6b4eff;
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-size: 12px;
+    margin-left: 10px;
+    vertical-align: middle;
+}
+
+.feature-image {
+    width: 100%;
+    max-width: 600px; /* Adjust this value as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin: 20px 0; /* Add some margin */
+    display: none; /* Hide by default */
+}
+
+    .feature-image.active {
+        display: block; /* Show when active */
+    }

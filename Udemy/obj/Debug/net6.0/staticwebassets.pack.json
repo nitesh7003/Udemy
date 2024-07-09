@@ -1,0 +1,373 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Udemy\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Udemy.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Udemy.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Udemy\\wwwroot\\css\\Review.css",
+      "PackagePath": "staticwebassets\\css\\Review.css"
+    },
+    {
+      "Id": "C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Udemy\\wwwroot\\css\\Toptrends.css",
+      "PackagePath": "staticwebassets\\css\\Toptrends.css"
+    },
+    {
+      "Id": "C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Udemy\\wwwroot\\css\\Trendingnow.css",
+      "PackagePath": "staticwebassets\\css\\Trendingnow.css"
+    },
+    {
+      "Id": "C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Udemy\\wwwroot\\css\\aftercertificate.css",
+      "PackagePath": "staticwebassets\\css\\aftercertificate.css"
+    },
+    {
+      "Id": "C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Udemy\\wwwroot\\css\\certificate.css",
+      "PackagePath": "staticwebassets\\css\\certificate.css"
+    },
+    {
+      "Id": "C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Udemy\\wwwroot\\css\\lastone.css",
+      "PackagePath": "staticwebassets\\css\\lastone.css"
+    },
+    {
+      "Id": "C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Udemy\\wwwroot\\css\\new.css",
+      "PackagePath": "staticwebassets\\css\\new.css"
+    },
+    {
+      "Id": "C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Udemy\\wwwroot\\css\\planeandpricing.css",
+      "PackagePath": "staticwebassets\\css\\planeandpricing.css"
+    },
+    {
+      "Id": "C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Udemy\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Udemy\\wwwroot\\css\\site1.css",
+      "PackagePath": "staticwebassets\\css\\site1.css"
+    },
+    {
+      "Id": "C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Udemy\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Udemy\\wwwroot\\images\\Screenshot 2024-07-02 220442.png",
+      "PackagePath": "staticwebassets\\images\\Screenshot 2024-07-02 220442.png"
+    },
+    {
+      "Id": "C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Udemy\\wwwroot\\images\\Udemy_logo.svg.png",
+      "PackagePath": "staticwebassets\\images\\Udemy_logo.svg.png"
+    },
+    {
+      "Id": "C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Udemy\\wwwroot\\images\\Vimeo1.png",
+      "PackagePath": "staticwebassets\\images\\Vimeo1.png"
+    },
+    {
+      "Id": "C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Udemy\\wwwroot\\images\\Volkswagen.png",
+      "PackagePath": "staticwebassets\\images\\Volkswagen.png"
+    },
+    {
+      "Id": "C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Udemy\\wwwroot\\images\\asp.net.jpg",
+      "PackagePath": "staticwebassets\\images\\asp.net.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Udemy\\wwwroot\\images\\cisco.png",
+      "PackagePath": "staticwebassets\\images\\cisco.png"
+    },
+    {
+      "Id": "C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Udemy\\wwwroot\\images\\csharp.jpg",
+      "PackagePath": "staticwebassets\\images\\csharp.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Udemy\\wwwroot\\images\\dotnetfullstckdeveloper.png",
+      "PackagePath": "staticwebassets\\images\\dotnetfullstckdeveloper.png"
+    },
+    {
+      "Id": "C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Udemy\\wwwroot\\images\\first.png",
+      "PackagePath": "staticwebassets\\images\\first.png"
+    },
+    {
+      "Id": "C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Udemy\\wwwroot\\images\\fourth.png",
+      "PackagePath": "staticwebassets\\images\\fourth.png"
+    },
+    {
+      "Id": "C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Udemy\\wwwroot\\images\\meeting.png",
+      "PackagePath": "staticwebassets\\images\\meeting.png"
+    },
+    {
+      "Id": "C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Udemy\\wwwroot\\images\\pandg.jpg",
+      "PackagePath": "staticwebassets\\images\\pandg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Udemy\\wwwroot\\images\\secound.png",
+      "PackagePath": "staticwebassets\\images\\secound.png"
+    },
+    {
+      "Id": "C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Udemy\\wwwroot\\images\\sql.jpg",
+      "PackagePath": "staticwebassets\\images\\sql.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Udemy\\wwwroot\\images\\starting.jpg",
+      "PackagePath": "staticwebassets\\images\\starting.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Udemy\\wwwroot\\images\\third.png",
+      "PackagePath": "staticwebassets\\images\\third.png"
+    },
+    {
+      "Id": "C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Udemy\\wwwroot\\images\\toptrnds.png",
+      "PackagePath": "staticwebassets\\images\\toptrnds.png"
+    },
+    {
+      "Id": "C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Udemy\\wwwroot\\images\\udemybuinesspage.png",
+      "PackagePath": "staticwebassets\\images\\udemybuinesspage.png"
+    },
+    {
+      "Id": "C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Udemy\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Udemy\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Udemy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Udemy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Udemy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Udemy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Udemy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Udemy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Udemy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Udemy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Udemy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Udemy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Udemy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Udemy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Udemy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Udemy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Udemy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Udemy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Udemy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Udemy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Udemy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Udemy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Udemy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Udemy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Udemy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Udemy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Udemy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Udemy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Udemy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Udemy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Udemy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Udemy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Udemy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Udemy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Udemy\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Udemy\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Udemy\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Udemy\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Udemy\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Udemy\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Udemy\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Udemy\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Udemy\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Udemy\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Udemy\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Udemy\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Udemy\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Udemy\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Udemy\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Udemy\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Udemy\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Udemy\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Udemy\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Udemy\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Udemy\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Udemy\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Udemy\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Nitesh Yadav\\source\\repos\\Udemy\\Udemy\\Udemy\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.Udemy.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.Udemy.props",
+      "PackagePath": "build\\Udemy.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.Udemy.props",
+      "PackagePath": "buildMultiTargeting\\Udemy.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.Udemy.props",
+      "PackagePath": "buildTransitive\\Udemy.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

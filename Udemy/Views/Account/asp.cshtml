@@ -1,0 +1,53 @@
+﻿@model Udemy.Models.asp  // Ensure this model matches your actual model class
+
+@{
+    Layout = "_asp";  // Ensure '_asp.cshtml' exists in the 'Views/Shared' directory
+    ViewData["Title"] = "ASP.NET Tutorial";
+    bool isLoggedIn = User.Identity.IsAuthenticated; // Check the actual authentication status
+}
+
+<div class="container mt-4">
+    <h1 class="text-center">ASP.NET Tutorial</h1>
+    <div class="row">
+        @for (int i = 0; i < 8; i++)
+        {
+            <div class="col-md-3 mb-4">
+                <div class="video-container position-relative">
+                    <iframe class="video-frame" width="100%" height="315" src="https://www.youtube.com/embed/SuLiu5AK9Ps?si=6qLzZnu1KvRlOK7K" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    @if (!isLoggedIn)
+                    {
+                        <div class="video-overlay" onclick="checkLogin()"></div>
+                    }
+                    <p>This video is only for ASP.NET.</p>
+                </div>
+            </div>
+        }
+    </div>
+</div>
+
+<script>
+    function checkLogin() {
+        alert("You can't play the video. First, you have to log in.");
+    }
+</script>
+
+<style>
+    .video-container {
+        position: relative;
+    }
+
+    .video-overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 1;
+        cursor: pointer;
+        background: rgba(0, 0, 0, 0.5); /* Semi-transparent overlay */
+    }
+
+    .video-frame {
+        display: block;
+    }
+</style>

@@ -1,0 +1,105 @@
+﻿@{
+    Layout = "_SubscriptionLayout";
+    ViewData["Title"] = "Subscription Plans";
+}
+
+<div class="container">
+    <h1>Choose a plan for success</h1>
+    <p>Don't want to buy courses one by one? Pick a plan to help you, your team, or your organization achieve outcomes faster.</p>
+    <div class="plans">
+        <div class="plan personal">
+            <h2>Personal Plan</h2>
+            <p class="subtext">For you</p>
+            <p class="price">Starting at ₹850 per month</p>
+            <p class="billing">Billed monthly or annually. Cancel anytime.</p>
+            <button class="razorpay-button" data-plan="personal">Start subscription</button>
+            <ul>
+                <li>Access to 11,000+ top courses</li>
+                <li>Certification prep</li>
+                <li>Goal-focused recommendations</li>
+                <li>AI-powered coding exercises</li>
+            </ul>
+        </div>
+        <div class="plan team">
+            <h2>Team Plan</h2>
+            <p class="subtext">For your team</p>
+            <p class="price">₹1,167 a month per user</p>
+            <p class="billing">Billed annually. Cancel anytime.</p>
+            <button class="razorpay-button" data-plan="team">Start subscription</button>
+            <ul>
+                <li>Access to 11,000+ top courses</li>
+                <li>Certification prep</li>
+                <li>Goal-focused recommendations</li>
+                <li>AI-powered coding exercises</li>
+                <li>Analytics and adoption reports</li>
+            </ul>
+        </div>
+        <div class="plan enterprise">
+            <h2>Enterprise Plan</h2>
+            <p class="subtext">For your whole organization</p>
+            <p class="contact">Contact sales for pricing</p>
+            <button class="razorpay-button" data-plan="enterprise">Request a demo</button>
+            <ul>
+                <li>Access to 25,000+ top courses</li>
+                <li>Certification prep</li>
+                <li>Goal-focused recommendations</li>
+                <li>AI-powered coding exercises</li>
+                <li>Advanced analytics and insights</li>
+                <li>Dedicated customer success team</li>
+                <li>International course collection featuring 15 languages</li>
+                <li>Customizable content</li>
+                <li>Hands-on tech training with add-on</li>
+                <li>Strategic implementation services with add-on</li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+    <script>
+        var razorpayOptions = {
+            key: 'rzp_test_jFtPE0IAzY0xmG',
+            amount: 10000, // Example amount in paisa (e.g., ₹100.00)
+            currency: 'INR',
+            name: 'Your Company Name',
+            description: 'Subscription Payment',
+            image: 'https://example.com/logo.png', // Optional: Your company logo
+            handler: function (response) {
+                alert('Payment successful! Payment ID: ' + response.razorpay_payment_id);
+                // Handle successful payment here (e.g., update backend, redirect user)
+            },
+            prefill: {
+                name: 'User Name', // Optional: User's name
+                email: 'user@example.com', // Optional: User's email
+                contact: '9999999999' // Optional: User's phone number
+            },
+            theme: {
+                color: '#3399cc' // Optional: Theme color
+            }
+        };
+
+        document.addEventListener('DOMContentLoaded', function () {
+            var buttons = document.querySelectorAll('.razorpay-button');
+            buttons.forEach(function (button) {
+                button.addEventListener('click', function (event) {
+                    var plan = event.target.getAttribute('data-plan');
+                    razorpayOptions.amount = calculateAmount(plan);
+                    var rzp = new Razorpay(razorpayOptions);
+                    rzp.open();
+                });
+            });
+        });
+
+        function calculateAmount(plan) {
+            switch (plan) {
+                case 'personal':
+                    return 85000; // Example: ₹850.00 in paisa
+                case 'team':
+                    return 116700; // Example: ₹1167.00 per usem r in paisa
+                default:
+                    return 0;
+            }
+        }
+    </script>
+}

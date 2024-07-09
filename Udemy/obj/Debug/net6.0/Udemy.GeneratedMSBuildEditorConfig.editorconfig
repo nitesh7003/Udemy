@@ -1,0 +1,135 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Udemy
+build_property.RootNamespace = Udemy
+build_property.ProjectDir = C:\Users\Nitesh Yadav\source\repos\Udemy\Udemy\Udemy\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\Nitesh Yadav\source\repos\Udemy\Udemy\Udemy
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/Nitesh Yadav/source/repos/Udemy/Udemy/Udemy/Views/Account/asp.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxhc3AuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Nitesh Yadav/source/repos/Udemy/Udemy/Udemy/Views/Account/Checkout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxDaGVja291dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Nitesh Yadav/source/repos/Udemy/Udemy/Udemy/Views/Account/csharp.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxjc2hhcnAuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Nitesh Yadav/source/repos/Udemy/Udemy/Udemy/Views/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Nitesh Yadav/source/repos/Udemy/Udemy/Udemy/Views/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Nitesh Yadav/source/repos/Udemy/Udemy/Udemy/Views/Account/SignUp.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxTaWduVXAuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Nitesh Yadav/source/repos/Udemy/Udemy/Udemy/Views/Account/sql.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxzcWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Nitesh Yadav/source/repos/Udemy/Udemy/Udemy/Views/Account/SubscriptionPlans.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxTdWJzY3JpcHRpb25QbGFucy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Nitesh Yadav/source/repos/Udemy/Udemy/Udemy/Views/Admin/AdminDashboard.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQWRtaW5EYXNoYm9hcmQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Nitesh Yadav/source/repos/Udemy/Udemy/Udemy/Views/Admin/UploadTopic.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cVXBsb2FkVG9waWMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Nitesh Yadav/source/repos/Udemy/Udemy/Udemy/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Nitesh Yadav/source/repos/Udemy/Udemy/Udemy/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Nitesh Yadav/source/repos/Udemy/Udemy/Udemy/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Nitesh Yadav/source/repos/Udemy/Udemy/Udemy/Views/Shared/Registerlayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFJlZ2lzdGVybGF5b3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Nitesh Yadav/source/repos/Udemy/Udemy/Udemy/Views/Shared/_AdminLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9BZG1pbkxheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Nitesh Yadav/source/repos/Udemy/Udemy/Udemy/Views/Shared/_asp.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9hc3AuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Nitesh Yadav/source/repos/Udemy/Udemy/Udemy/Views/Shared/_layoutcsharp.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9sYXlvdXRjc2hhcnAuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Nitesh Yadav/source/repos/Udemy/Udemy/Udemy/Views/Shared/_LoginLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpbkxheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Nitesh Yadav/source/repos/Udemy/Udemy/Udemy/Views/Shared/_RazorpayCheckoutScript.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9SYXpvcnBheUNoZWNrb3V0U2NyaXB0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Nitesh Yadav/source/repos/Udemy/Udemy/Udemy/Views/Shared/_SignUpLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9TaWduVXBMYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Nitesh Yadav/source/repos/Udemy/Udemy/Udemy/Views/Shared/_sql.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9zcWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Nitesh Yadav/source/repos/Udemy/Udemy/Udemy/Views/Shared/_SubscriptionLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9TdWJzY3JpcHRpb25MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Nitesh Yadav/source/repos/Udemy/Udemy/Udemy/Views/Shared/_UserLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Vc2VyTGF5b3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Nitesh Yadav/source/repos/Udemy/Udemy/Udemy/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Nitesh Yadav/source/repos/Udemy/Udemy/Udemy/Views/User/Checkout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxDaGVja291dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Nitesh Yadav/source/repos/Udemy/Udemy/Udemy/Views/User/UserDashboard.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxVc2VyRGFzaGJvYXJkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Nitesh Yadav/source/repos/Udemy/Udemy/Udemy/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Nitesh Yadav/source/repos/Udemy/Udemy/Udemy/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Nitesh Yadav/source/repos/Udemy/Udemy/Udemy/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-iru1r7cjxz

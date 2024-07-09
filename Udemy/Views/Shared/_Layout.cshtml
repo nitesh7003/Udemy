@@ -1,0 +1,1047 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Udemy</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/certificate.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/Trendingnow.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/Review.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/lastone.css" asp-append-version="true" />
+      
+    
+    <link rel="stylesheet" href="~/css/new.css" asp-append-version="true" />
+
+
+
+
+    <link rel="stylesheet" href="~/css/Toptrends.css" asp-append-version="true" />
+
+
+    <link rel="stylesheet" href="~/css/aftercertificate.css" asp-append-version="true" />
+
+
+
+    <link rel="stylesheet" href="~/Udemy.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+
+
+
+
+    <style>
+        /* Custom CSS for black background Sign up button */
+        .navbar-nav .btn-primary {
+            background-color: black !important;
+            border-color: black !important;
+        }
+
+            .navbar-nav .btn-primary:hover {
+                background-color: #333 !important; /* Darken on hover */
+                border-color: #333 !important;
+            }
+
+            .navbar-nav .btn-primary:focus,
+            .navbar-nav .btn-primary.focus {
+                box-shadow: 0 0 0 0.2rem rgba(0, 0, 0, 0.5) !important;
+            }
+
+        /* Custom CSS for dropdown items */
+        .dropdown-item {
+            color: black;
+        }
+
+            .dropdown-item:hover {
+                color: white;
+                background-color: #333;
+            }
+
+        /* Custom CSS for promo box */
+        .promo-box {
+            background-color: white;
+            padding: 20px;
+            border: 1px solid #ccc;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+            .promo-box h2 {
+                color: black; /* Ensure text color is readable on white background */
+                margin-bottom: 10px; /* Adds space below the heading */
+            }
+
+            .promo-box p {
+                color: #666; /* Adjust text color as needed */
+                margin-bottom: 0; /* Remove default margin */
+            }
+
+        /* Style for image */
+        .custom-img {
+            height: 400px; /* Adjust the height as needed */
+            object-fit: cover; /* Maintain aspect ratio and cover entire container */
+        }
+
+        /* Custom font for 𝚃𝚢𝚙𝚎 𝚜𝚘𝚖𝚎𝚝𝚑𝚒𝚗𝚐 𝚝𝚘 𝚜𝚝𝚊𝚛𝚝 */
+        .custom-font {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Use a web-safe alternative */
+            font-size: 18px; /* Adjust font size as needed */
+            line-height: 1.6; /* Adjust line height for readability */
+            color: #333; /* Text color */
+        }
+
+        font-family: Arial, sans-serif;
+        background-color: #f9f9f9;
+        margin: 0;
+        padding: 0;
+        }
+
+        .courses-section {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .tabs {
+            display: flex;
+            overflow-x: auto;
+            margin-bottom: 20px;
+        }
+
+        .tab {
+            background-color: #f1f1f1;
+            border: none;
+            padding: 10px 20px;
+            margin-right: 10px;
+            cursor: pointer;
+            border-radius: 5px;
+            white-space: nowrap;
+        }
+
+            .tab.active {
+                background-color: #007bff;
+                color: #fff;
+            }
+
+        .courses {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .course {
+            background-color: #fff;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+        }
+
+            .course img {
+                width: 100%;
+                border-bottom: 1px solid #ddd;
+            }
+
+            .course h3 {
+                font-size: 1.2em;
+                margin: 10px 0;
+            }
+
+            .course p {
+                color: #777;
+                margin-bottom: 10px;
+            }
+
+        .rating {
+            display: block;
+            margin-bottom: 10px;
+            color: #f5b50a;
+        }
+
+        .stars {
+            color: #f5b50a;
+        }
+
+        .price {
+            display: block;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+
+            .price s {
+                color: #777;
+                margin-left: 10px;
+            }
+
+        .bestseller {
+            display: inline-block;
+            background-color: #ffd700;
+            padding: 5px 10px;
+            border-radius: 5px;
+            color: #fff;
+            font-weight: bold;
+        }
+
+        .show-all {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+            .show-all button {
+                background-color: #007bff;
+                color: #fff;
+                border: none;
+                padding: 10px 20px;
+                cursor: pointer;
+                border-radius: 5px;
+            }
+
+                .show-all button:hover {
+                    background-color: #0056b3;
+                }
+
+        .trusted-companies {
+            text-align: center;
+            padding: 50px 0;
+        }
+
+            .trusted-companies img {
+                margin: 0 20px;
+                vertical-align: middle;
+            }
+
+            .trusted-companies p {
+                font-size: 18px;
+                color: #555;
+                margin-bottom: 20px;
+            }
+
+/*             // this isn for certificate 
+ */
+
+
+
+
+    </style>
+</head>
+<body>
+    
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                    <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">
+                        <img src="~/images/Udemy_logo.svg.png" width="50" height="30" class="d-inline-block align-top" alt="Udemy Logo">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Categories
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item" asp-controller="Account" asp-action="CSharp">C#</a>
+                                <a class="dropdown-item" asp-controller="Account" asp-action="sql">SQL</a>
+                                <a class="dropdown-item" asp-controller="Account" asp-action="asp">ASP.NET</a>
+                                </div>
+                            </li>
+                        </ul>
+                        <form class="d-flex">
+                            <input class="form-control mr-sm-2" type="search" placeholder="Search for anything" aria-label="Search">
+                            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                        </form>
+                      
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                            <a class="nav-link" asp-controller="Account" asp-action="SubscriptionPlans">Plans & Pricing</a>
+                        </li>
+                            <li class="nav-item">
+                            <a class="nav-link" asp-controller="Account" asp-action="Register">Udemy Business</a>
+                        </li>
+                            <li class="nav-item">
+                            <a class="nav-link" href="https://www.udemy.com/teaching/?ref=teach_header">Teach on Udemy</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#"><i class="fas fa-shopping-cart"></i></a>
+                            </li>
+
+                       
+
+                            <li class="nav-item">
+                                <a class="nav-link" asp-controller="Account" asp-action="Login">Log in</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link btn btn-primary text-white" asp-controller="Account" asp-action="SignUp">Sign up</a>
+                            </li>
+                        
+                    </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+
+
+
+    <div class="container">
+        <main role="main" class="pb-3">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="promo-box" style="margin-top: 20px;">
+                        <h2>The latest in learning</h2>
+                        <p>Stay on top of the skills you need. Courses as low as ₹499 through July 4.</p>
+                    </div>
+                </div>
+                <div class="col-md-8">
+                    <img src="images/starting.jpg" alt="Starting Image" class="img-fluid custom-img">
+                </div>
+            </div>
+
+            <div class="custom-font">
+                <h1>All the skills you need in one place</h1>
+                <h3>From critical skills to technical topics, Udemy supports your professional development.</h3>
+            </div>
+            <br />
+            <br />
+
+            <div class="tabs">
+                <button class="tab active" data-category="csharp">C#</button>
+                <button class="tab" data-category="sql">SQL</button>
+                <button class="tab" data-category="aspnet">ASP.NET</button>
+            </div>
+
+            <div class="courses">
+                <div class="course" data-category="sql">
+                    <img src="~/images/sql.jpg" alt="Course Image">
+                    <h3> SQL</h3>
+                    <p>Dr. Angela Yu, Developer and Lead...</p>
+                    <span class="rating">4.7 <span class="stars">★★★★★</span></span>
+                    <span class="price">₹449 <s>₹3,099</s></span>
+                    <span class="bestseller">Bestseller</span>
+                </div>
+                <div class="course" data-category="aspnet">
+                    <img src="~/images/asp.net.jpg" alt="Course Image">
+                    <h3>ASP.NET</h3>
+                    <p>Colt Steele</p>
+                    <span class="rating">4.6 <span class="stars">★★★★★</span></span>
+                    <span class="price">₹499 <s>₹3,499</s></span>
+                </div>
+                <div class="course" data-category="csharp">
+                    <img src="~/images/csharp.jpg" alt="Course Image">
+                    <h3>c#</h3>
+                    <p>YouAccel Training</p>
+                    <span class="rating">4.6 <span class="stars">★★★★★</span></span>
+                    <span class="price">₹449 <s>₹3,099</s></span>
+                </div>
+                <div class="course" data-category="aspnet">
+                    <img src="~/images/dotnetfullstckdeveloper.png" alt="Course Image">
+                    <h3>Full stack dot net developer</h3>
+                    <p>Creative Online School</p>
+                    <span class="rating">4.3 <span class="stars">★★★★★</span></span>
+                    <span class="price">₹599 <s>₹3,699</s></span>
+                </div>
+            </div>
+
+            <div class="show-all">
+                <button id="showAllBtn">Show all Web Development co</button>
+            </div>
+        </main>
+    </div>
+    </section>
+
+            @*  //Learning focused on your goals
+            *@
+            <section class="trusted-companies">
+                <p>Trusted by over 15,000 companies and millions of learners</p>
+                <img src="~/images/Volkswagen.png" alt="Volkswagen" width="80">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/2/24/Samsung_Logo.svg" alt="Samsung" width="120">
+                <img src="~/images/cisco.png" alt="Cisco" width="100">
+                <img src="~/images/Vimeo1.png" alt="Vimeo" width="100">
+                <img src="~/images/pandg.jpg" alt="P&G" width="80">
+            </section>
+
+            <div class="features-container">
+                <section class="features-section">
+                    <h1>
+                        Learning focused on your goals
+                    </h1>
+                    <div class="feature-card" onclick="showImage('image1')">
+                        <div class="feature-icon">🌟</div>
+                        <div class="feature-content">
+                            <div class="feature-title">Hands-on training</div>
+                            <div class="feature-description">
+                                Upskill effectively with AI-powered coding exercises, practice tests, skills assessments, labs, and workspaces.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="feature-card" onclick="showImage('image2')">
+                        <div class="feature-icon">📜</div>
+                        <div class="feature-content">
+                            <div class="feature-title">Certification prep</div>
+                            <div class="feature-description">
+                                Prep for industry-recognized certifications by solving real-world challenges and earn badges along the way.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="feature-card" onclick="showImage('image3')">
+                        <div class="feature-icon">📊</div>
+                        <div class="feature-content">
+                            <div class="feature-title">Insights and analytics <span class="enterprise-plan">Enterprise Plan</span></div>
+                            <div class="feature-description">
+                                Fast-track goals with advanced insights plus a dedicated customer success team to help drive effective learning.
+                            </div>
+                            <a href="#" class="find-out-more">Find out more</a>
+                        </div>
+                    </div>
+                    <div class="feature-card" onclick="showImage('image4')">
+                        <div class="feature-icon">🔧</div>
+                        <div class="feature-content">
+                            <div class="feature-title">Customizable content <span class="enterprise-plan">Enterprise Plan</span></div>
+                            <div class="feature-description">
+                                Create tailored learning paths for team and organization goals and even host your own content and resources.
+                            </div>
+                            <a href="#" class="find-out-more">Find out more</a>
+                        </div>
+                    </div>
+                </section>
+                <img id="image1" class="feature-image" src="~/images/first.png" alt="Hands-on Training">
+                <img id="image2" class="feature-image" src="~/images/secound.png" alt="Certification Prep">
+                <img id="image3" class="feature-image" src="~/images/third.png" alt="Insights and Analytics">
+                <img id="image4" class="feature-image" src="~/images/fourth.png" alt="Customizable Content">
+            </div>
+ </section>
+
+ <br/>
+
+@*  section for review 
+ *@            <section>
+
+                <h1>
+                    See what others are achieving through learning
+                </h1>
+                <div id="carouselMultiItemExample" data-mdb-carousel-init class="carousel slide carousel-dark text-center" data-mdb-ride="carousel">
+                    <div class="d-flex justify-content-center mb-4">
+                        <button data-mdb-button-init class="carousel-control-prev position-relative" type="button"
+                                data-mdb-target="#carouselMultiItemExample" data-mdb-slide="prev">
+                        </button>
+                        <button data-mdb-button-init class="carousel-control-next position-relative" type="button"
+                                data-mdb-target="#carouselMultiItemExample" data-mdb-slide="next">
+                          
+                        </button>
+                    </div>
+
+                    <div class="carousel-inner py-4">
+                        <div class="carousel-item active">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-lg-4">
+                                        <img class="rounded-circle shadow-1-strong mb-4"
+                                             src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(1).webp" alt="avatar"
+                                             style="width: 150px;" />
+                                        <h5 class="mb-3">Anna Deynah</h5>
+                                        <p>UX Designer</p>
+                                        <p class="text-muted">
+                                            <i class="fas fa-quote-left pe-2"></i>
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod eos id
+                                            officiis hic tenetur quae quaerat ad velit ab hic tenetur.
+                                        </p>
+                                        <ul class="list-unstyled d-flex justify-content-center text-warning mb-0">
+                                            <li><i class="fas fa-star fa-sm"></i></li>
+                                            <li><i class="fas fa-star fa-sm"></i></li>
+                                            <li><i class="fas fa-star fa-sm"></i></li>
+                                            <li><i class="fas fa-star fa-sm"></i></li>
+                                            <li><i class="fas fa-star fa-sm"></i></li>
+                                        </ul>
+                                    </div>
+
+                                    <div class="col-lg-4 d-none d-lg-block">
+                                        <img class="rounded-circle shadow-1-strong mb-4"
+                                             src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(32).webp" alt="avatar"
+                                             style="width: 150px;" />
+                                        <h5 class="mb-3">John Doe</h5>
+                                        <p>Web Developer</p>
+                                        <p class="text-muted">
+                                            <i class="fas fa-quote-left pe-2"></i>
+                                            Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis
+                                            suscipit laboriosam, nisi ut aliquid commodi.
+                                        </p>
+                                        <ul class="list-unstyled d-flex justify-content-center text-warning mb-0">
+                                            <li><i class="fas fa-star fa-sm"></i></li>
+                                            <li><i class="fas fa-star fa-sm"></i></li>
+                                            <li><i class="fas fa-star fa-sm"></i></li>
+                                            <li><i class="fas fa-star fa-sm"></i></li>
+                                            <li>
+                                                <i class="fas fa-star-half-alt fa-sm"></i>
+                                            </li>
+                                        </ul>
+                                    </div>
+
+                                    <div class="col-lg-4 d-none d-lg-block">
+                                        <img class="rounded-circle shadow-1-strong mb-4"
+                                             src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(10).webp" alt="avatar"
+                                             style="width: 150px;" />
+                                        <h5 class="mb-3">Maria Kate</h5>
+                                        <p>Photographer</p>
+                                        <p class="text-muted">
+                                            <i class="fas fa-quote-left pe-2"></i>
+                                            At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis
+                                            praesentium voluptatum deleniti atque corrupti.
+                                        </p>
+                                        <ul class="list-unstyled d-flex justify-content-center text-warning mb-0">
+                                            <li><i class="fas fa-star fa-sm"></i></li>
+                                            <li><i class="fas fa-star fa-sm"></i></li>
+                                            <li><i class="fas fa-star fa-sm"></i></li>
+                                            <li><i class="fas fa-star fa-sm"></i></li>
+                                            <li><i class="far fa-star fa-sm"></i></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-lg-4">
+                                        <img class="rounded-circle shadow-1-strong mb-4"
+                                             src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(3).webp" alt="avatar"
+                                             style="width: 150px;" />
+                                        <h5 class="mb-3">John Doe</h5>
+                                        <p>UX Designer</p>
+                                        <p class="text-muted">
+                                            <i class="fas fa-quote-left pe-2"></i>
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod eos id
+                                            officiis hic tenetur quae quaerat ad velit ab hic tenetur.
+                                        </p>
+                                        <ul class="list-unstyled d-flex justify-content-center text-warning mb-0">
+                                            <li><i class="fas fa-star fa-sm"></i></li>
+                                            <li><i class="fas fa-star fa-sm"></i></li>
+                                            <li><i class="fas fa-star fa-sm"></i></li>
+                                            <li><i class="fas fa-star fa-sm"></i></li>
+                                            <li><i class="fas fa-star fa-sm"></i></li>
+                                        </ul>
+                                    </div>
+
+                                    <div class="col-lg-4 d-none d-lg-block">
+                                        <img class="rounded-circle shadow-1-strong mb-4"
+                                             src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(4).webp" alt="avatar"
+                                             style="width: 150px;" />
+                                        <h5 class="mb-3">Alex Rey</h5>
+                                        <p>Web Developer</p>
+                                        <p class="text-muted">
+                                            <i class="fas fa-quote-left pe-2"></i>
+                                            Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis
+                                            suscipit laboriosam, nisi ut aliquid commodi.
+                                        </p>
+                                        <ul class="list-unstyled d-flex justify-content-center text-warning mb-0">
+                                            <li><i class="fas fa-star fa-sm"></i></li>
+                                            <li><i class="fas fa-star fa-sm"></i></li>
+                                            <li><i class="fas fa-star fa-sm"></i></li>
+                                            <li><i class="fas fa-star fa-sm"></i></li>
+                                            <li>
+                                                <i class="fas fa-star-half-alt fa-sm"></i>
+                                            </li>
+                                        </ul>
+                                    </div>
+
+                                    <div class="col-lg-4 d-none d-lg-block">
+                                        <img class="rounded-circle shadow-1-strong mb-4"
+                                             src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(5).webp" alt="avatar"
+                                             style="width: 150px;" />
+                                        <h5 class="mb-3">Maria Kate</h5>
+                                        <p>Photographer</p>
+                                        <p class="text-muted">
+                                            <i class="fas fa-quote-left pe-2"></i>
+                                            At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis
+                                            praesentium voluptatum deleniti atque corrupti.
+                                        </p>
+                                        <ul class="list-unstyled d-flex justify-content-center text-warning mb-0">
+                                            <li><i class="fas fa-star fa-sm"></i></li>
+                                            <li><i class="fas fa-star fa-sm"></i></li>
+                                            <li><i class="fas fa-star fa-sm"></i></li>
+                                            <li><i class="fas fa-star fa-sm"></i></li>
+                                            <li><i class="far fa-star fa-sm"></i></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-lg-4">
+                                        <img class="rounded-circle shadow-1-strong mb-4"
+                                             src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(6).webp" alt="avatar"
+                                             style="width: 150px;" />
+                                        <h5 class="mb-3">Anna Deynah</h5>
+                                        <p>UX Designer</p>
+                                        <p class="text-muted">
+                                            <i class="fas fa-quote-left pe-2"></i>
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod eos id
+                                            officiis hic tenetur quae quaerat ad velit ab hic tenetur.
+                                        </p>
+                                        <ul class="list-unstyled d-flex justify-content-center text-warning mb-0">
+                                            <li><i class="fas fa-star fa-sm"></i></li>
+                                            <li><i class="fas fa-star fa-sm"></i></li>
+                                            <li><i class="fas fa-star fa-sm"></i></li>
+                                            <li><i class="fas fa-star fa-sm"></i></li>
+                                            <li><i class="fas fa-star fa-sm"></i></li>
+                                        </ul>
+                                    </div>
+
+                                    <div class="col-lg-4 d-none d-lg-block">
+                                        <img class="rounded-circle shadow-1-strong mb-4"
+                                             src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(8).webp" alt="avatar"
+                                             style="width: 150px;" />
+                                        <h5 class="mb-3">John Doe</h5>
+                                        <p>Web Developer</p>
+                                        <p class="text-muted">
+                                            <i class="fas fa-quote-left pe-2"></i>
+                                            Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis
+                                            suscipit laboriosam, nisi ut aliquid commodi.
+                                        </p>
+                                        <ul class="list-unstyled d-flex justify-content-center text-warning mb-0">
+                                            <li><i class="fas fa-star fa-sm"></i></li>
+                                            <li><i class="fas fa-star fa-sm"></i></li>
+                                            <li><i class="fas fa-star fa-sm"></i></li>
+                                            <li><i class="fas fa-star fa-sm"></i></li>
+                                            <li>
+                                                <i class="fas fa-star-half-alt fa-sm"></i>
+                                            </li>
+                                        </ul>
+                                    </div>
+
+                                    <div class="col-lg-4 d-none d-lg-block">
+                                        <img class="rounded-circle shadow-1-strong mb-4"
+                                             src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(7).webp" alt="avatar"
+                                             style="width: 150px;" />
+                                        <h5 class="mb-3">Maria Kate</h5>
+                                        <p>Photographer</p>
+                                        <p class="text-muted">
+                                            <i class="fas fa-quote-left pe-2"></i>
+                                            At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis
+                                            praesentium voluptatum deleniti atque corrupti.
+                                        </p>
+                                        <ul class="list-unstyled d-flex justify-content-center text-warning mb-0">
+                                            <li><i class="fas fa-star fa-sm"></i></li>
+                                            <li><i class="fas fa-star fa-sm"></i></li>
+                                            <li><i class="fas fa-star fa-sm"></i></li>
+                                            <li><i class="fas fa-star fa-sm"></i></li>
+                                            <li><i class="far fa-star fa-sm"></i></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </section>
+
+            <br/>
+            <br />
+
+      @*       //Small part this is  *@
+
+
+            <section class="trend-card-container">
+                <div class="trend-card-content">
+                    <h1>Top trends for the future of work</h1>
+                    <p>GenAI and leadership are at the core of today's skills-based economy. Get the 2024 Global Learning & Skills Trends Report to learn more.</p>
+                    <a href="#" class="btn-report">Get the report &gt;</a>
+                </div>
+                <div class="trend-card-image">
+                    <img src="~/images/toptrnds.png" alt="Trends Report Image">
+                </div>
+            </section>
+
+
+@*             //tradingnow
+
+
+ *@
+ <section>
+
+        <div class="container">
+            <div class="text-center">
+                <h1>Choose a plan for success</h1>
+                <p>Don't want to buy courses one by one? Pick a plan to help you, your team, or your organization achieve outcomes faster.</p>
+            </div>
+            <div class="row plan-container">
+                <div class="col-md-4">
+                    <div class="plan">
+                        <h2>Personal Plan</h2>
+                        <p>For you</p>
+                        <p class="plan-price">Starting at ₹850 per month</p>
+                        <p>Billed monthly or annually. Cancel anytime.</p>
+                        <a href="#" class="btn btn-primary plan-btn">Start subscription</a>
+                        <ul class="list-unstyled mt-3">
+                            <li>Access to 11,000+ top courses</li>
+                            <li>Certification prep</li>
+                            <li>Goal-focused recommendations</li>
+                            <li>AI-powered coding exercises</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="plan">
+                        <h2>Team Plan</h2>
+                        <p>For your team</p>
+                        <p class="plan-price">₹1,167 a month per user</p>
+                        <p>Billed annually. Cancel anytime.</p>
+                        <a href="#" class="btn btn-primary plan-btn">Start subscription</a>
+                        <ul class="list-unstyled mt-3">
+                            <li>Access to 11,000+ top courses</li>
+                            <li>Certification prep</li>
+                            <li>Goal-focused recommendations</li>
+                            <li>AI-powered coding exercises</li>
+                            <li>Analytics and adoption reports</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="plan">
+                        <h2>Enterprise Plan</h2>
+                        <p>For your whole organization</p>
+                        <p class="plan-price">Contact sales for pricing</p>
+                        <a href="#" class="btn btn-primary plan-btn">Request a demo</a>
+                        <ul class="list-unstyled mt-3">
+                            <li>Access to 25,000+ top courses</li>
+                            <li>Certification prep</li>
+                            <li>Goal-focused recommendations</li>
+                            <li>AI-powered coding exercises</li>
+                            <li>Advanced analytics and insights</li>
+                            <li>Dedicated customer success team</li>
+                            <li>International course collection featuring 15 languages</li>
+                            <li>Customizable content</li>
+                            <li>Hands-on tech training with add-on</li>
+                            <li>Strategic implementation services with add-on</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+ </section>
+
+
+            <section class="categories">
+                <div class="category">
+                    <h1>Trending Now</h1>
+                    <div class="highlight-skill">
+                        <h2>ChatGPT is a top skill</h2>
+                        <a href="#" class="cta-button">See ChatGPT courses</a>
+                        <p>3,235,980 learners</p>
+                    </div>
+                </div>
+
+                <div class="category">
+                    <h3>Development</h3>
+                    <ul>
+                        <li><a href="#">Python</a> <span>44,857,998 learners</span></li>
+                        <li><a href="#">Web Development</a> <span>13,297,583 learners</span></li>
+                        <li><a href="#">Data Science</a> <span>7,231,770 learners</span></li>
+                    </ul>
+                </div>
+
+                <div class="category">
+                    <h3>Design</h3>
+                    <ul>
+                        <li><a href="#">Blender</a> <span>2,669,050 learners</span></li>
+                        <li><a href="#">Graphic Design</a> <span>4,206,194 learners</span></li>
+                        <li><a href="#">User Experience (UX) Design</a> <span>1,944,091 learners</span></li>
+                    </ul>
+                </div>
+
+                <div class="category">
+                    <h3>Business</h3>
+                    <ul>
+                        <li><a href="#">PMI Project Management Professional (PMP)</a> <span>2,305,102 learners</span></li>
+                        <li><a href="#">Microsoft Power BI</a> <span>4,119,291 learners</span></li>
+                        <li><a href="#">Project Management</a> <span>3,541,925 learners</span></li>
+                    </ul>
+                </div>
+            </section>
+
+            <section>
+                <h1>
+                    Learners are viewing
+                </h1>
+                <div class="courses">
+                    <div class="course">
+                        <img src="~/images/sql.jpg" alt="Course Image">
+                        <h3> SQL</h3>
+                        <p>Dr. Angela Yu, Developer and Lead...</p>
+                        <span class="rating">4.7 <span class="stars">★★★★★</span></span>
+                        <span class="price">₹449 <s>₹3,099</s></span>
+                        <span class="bestseller">Bestseller</span>
+                    </div>
+                    <div class="course">
+                        <img src="~/images/asp.net.jpg" alt="Course Image">
+                        <h3>ASP.NET</h3>
+                        <p>Colt Steele</p>
+                        <span class="rating">4.6 <span class="stars">★★★★★</span></span>
+                        <span class="price">₹499 <s>₹3,499</s></span>
+                    </div>
+                    <div class="course">
+                        <img src="~/images/csharp.jpg" alt="Course Image">
+                        <h3>c#</h3>
+                        <p>YouAccel Training</p>
+                        <span class="rating">4.6 <span class="stars">★★★★★</span></span>
+                        <span class="price">₹449 <s>₹3,099</s></span>
+                    </div>
+                    <div class="course">
+                        <img src="~/images/dotnetfullstckdeveloper.png" alt="Course Image">
+                        <h3>Full stack dot net developer</h3>
+                        <p>Creative Online School</p>
+                        <span class="rating">4.3 <span class="stars">★★★★★</span></span>
+                        <span class="price">₹599 <s>₹3,699</s></span>
+                    </div>
+                </div>
+                
+            </section>
+
+
+            </br>
+            </br>
+
+            <section>
+
+                <div class="new-section-container">
+                    <div class="content">
+                        <div class="name-section">
+                            <h1>Booz Allen Hamilton</h1>
+                        </div>
+                        <h2>Booz Allen Hamilton Unlocks Talent Retention and Productivity Through Upskilling</h2>
+                        <div class="stats">
+                            <div class="stat">
+                                <h3>93%</h3>
+                                <p>retention rate among participating employees</p>
+                            </div>
+                            <div class="stat">
+                                <h3>65%</h3>
+                                <p>of learners noted a positive impact on their productivity</p>
+                            </div>
+                        </div>
+                        <button class="read-more">Read full story</button>
+                        <div class="carousel">
+                            <button class="prev">&larr;</button>
+                            <div class="indicators">
+                                <span class="active"></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                            <button class="next">&rarr;</button>
+                        </div>
+                    </div>
+                    <div class="image">
+                        <img src="~/images/meeting.png" alt="Meeting">
+                    </div>
+                </div>
+
+
+            </section>
+
+            @RenderBody()
+        </main>
+    </div>
+
+
+    
+
+
+    <!-- Footer -->
+    <footer class="text-center text-lg-start text-white" style="background-color: #000000;">
+        <!-- Grid container -->
+        <div class="container p-4 pb-0">
+            <!-- Section: Links -->
+            <section class="">
+                <!--Grid row-->
+                <div class="row">
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                        <h6 class="text-uppercase mb-4 font-weight-bold">Company name</h6>
+                        <p>
+                            Here you can use rows and columns to organize your footer
+                            content. Lorem ipsum dolor sit amet, consectetur adipisicing
+                            elit.
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+
+                    <hr class="w-100 clearfix d-md-none" />
+
+                    <!-- Grid column -->
+                    <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+                        <h6 class="text-uppercase mb-4 font-weight-bold">Products</h6>
+                        <p><a class="text-white">MDBootstrap</a></p>
+                        <p><a class="text-white">MDWordPress</a></p>
+                        <p><a class="text-white">BrandFlow</a></p>
+                        <p><a class="text-white">Bootstrap Angular</a></p>
+                    </div>
+                    <!-- Grid column -->
+
+                    <hr class="w-100 clearfix d-md-none" />
+
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+                        <h6 class="text-uppercase mb-4 font-weight-bold">Useful links</h6>
+                        <p><a class="text-white">Your Account</a></p>
+                        <p><a class="text-white">Become an Affiliate</a></p>
+                        <p><a class="text-white">Shipping Rates</a></p>
+                        <p><a class="text-white">Help</a></p>
+                    </div>
+
+                    <!-- Grid column -->
+                    <hr class="w-100 clearfix d-md-none" />
+
+                    <!-- Grid column -->
+                    <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+                        <h6 class="text-uppercase mb-4 font-weight-bold">Contact</h6>
+                        <p><i class="fas fa-home mr-3"></i> New York, NY 10012, US</p>
+                        <p><i class="fas fa-envelope mr-3"></i> info@gmail.com</p>
+                        <p><i class="fas fa-phone mr-3"></i> + 01 234 567 88</p>
+                        <p><i class="fas fa-print mr-3"></i> + 01 234 567 89</p>
+                    </div>
+                    <!-- Grid column -->
+                </div>
+                <!--Grid row-->
+            </section>
+            <!-- Section: Links -->
+
+            <hr class="my-3">
+
+            <!-- Section: Copyright -->
+            <section class="p-3 pt-0">
+                <div class="row d-flex align-items-center">
+                    <!-- Grid column -->
+                    <div class="col-md-7 col-lg-8 text-center text-md-start">
+                        <!-- Copyright -->
+                        <div class="p-3">
+                            © 2020 Copyright:
+                            <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+                        </div>
+                        <!-- Copyright -->
+                    </div>
+                    <!-- Grid column -->
+                    <!-- Grid column -->
+                    <div class="col-md-5 col-lg-4 ml-lg-0 text-center text-md-end">
+                        <!-- Facebook -->
+                        <a class="btn btn-outline-light btn-floating m-1" class="text-white" role="button"><i class="fab fa-facebook-f"></i></a>
+
+                        <!-- Twitter -->
+                        <a class="btn btn-outline-light btn-floating m-1" class="text-white" role="button"><i class="fab fa-twitter"></i></a>
+
+                        <!-- Google -->
+                        <a class="btn btn-outline-light btn-floating m-1" class="text-white" role="button"><i class="fab fa-google"></i></a>
+
+                        <!-- Instagram -->
+                        <a class="btn btn-outline-light btn-floating m-1" class="text-white" role="button"><i class="fab fa-instagram"></i></a>
+                    </div>
+                    <!-- Grid column -->
+               
+            </section>
+            <!-- Section: Copyright -->
+        </div>
+        <!-- Grid container -->
+    </footer>
+    <!-- Footer -->
+
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    <script>
+        function showImage(imageId) {
+            const images = document.querySelectorAll('.feature-image');
+            images.forEach(image => {
+                if (image.id === imageId) {
+                    image.classList.add('active');
+                } else {
+                    image.classList.remove('active');
+                }
+            });
+        }
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/mdb@5.5.2/dist/js/mdb.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            let currentIndex = 0;
+            const indicators = document.querySelectorAll('.indicators span');
+
+            document.querySelector('.prev').addEventListener('click', function () {
+                indicators[currentIndex].classList.remove('active');
+                currentIndex = (currentIndex > 0) ? currentIndex - 1 : indicators.length - 1;
+                indicators[currentIndex].classList.add('active');
+            });
+
+            document.querySelector('.next').addEventListener('click', function () {
+                indicators[currentIndex].classList.remove('active');
+                currentIndex = (currentIndex < indicators.length - 1) ? currentIndex + 1 : 0;
+                indicators[currentIndex].classList.add('active');
+            });
+        });
+    </script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const showAllBtn = document.getElementById('showAllBtn');
+
+            showAllBtn.addEventListener('click', function () {
+                // Check if user is logged in (use your own logic here)
+                const isLoggedIn = false; // Example: Replace with your actual login check
+
+                if (!isLoggedIn) {
+                    // Prompt the user to log in or redirect to login page
+                    alert('To view all Web Development courses, please log in first.');
+                    // Example redirect to login page
+                    window.location.href = '/account/login'; // Replace with your actual login page URL
+                } else {
+                    // Logic to show all courses
+                    const courses = document.querySelectorAll('.course');
+                    courses.forEach(course => {
+                        course.style.display = 'block'; // Show all courses
+                    });
+                }
+            });
+        });
+    </script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const tabs = document.querySelectorAll('.tab');
+            const courses = document.querySelectorAll('.course');
+
+            tabs.forEach(tab => {
+                tab.addEventListener('click', () => {
+                    const category = tab.getAttribute('data-category');
+                    courses.forEach(course => {
+                        if (course.getAttribute('data-category') === category || category === 'all') {
+                            course.style.display = 'block';
+                        } else {
+                            course.style.display = 'none';
+                        }
+                    });
+
+                    tabs.forEach(t => t.classList.remove('active'));
+                    tab.classList.add('active');
+                });
+            });
+        });
+    </script>
+
+
+
+    @await RenderSectionAsync("Scripts", required: false)
+    
+</body>
+</html>

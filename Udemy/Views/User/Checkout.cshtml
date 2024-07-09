@@ -1,0 +1,23 @@
+﻿@model Udemy.Models.CheckoutViewModel
+
+@{
+    Layout = "_UserLayout";
+    ViewData["Title"] = "Checkout";
+}
+
+<h2>Checkout</h2>
+
+<div>
+    <h3>Items in your cart:</h3>
+    <ul>
+        @foreach (var item in Model.CartItems)
+        {
+            <li>@item.Topic.TopicName - ₹500</li>
+        }
+    </ul>
+    <h4>Total Amount: ₹@Model.TotalAmount</h4>
+</div>
+
+<form method="post" action="/User/PlaceOrder">
+    <button type="submit">Place Order</button>
+</form>

@@ -1,0 +1,47 @@
+﻿@model Udemy.Models.UserDashboardViewModel
+
+@section Scripts {
+    <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+    <script>
+        var razorpayOptions = {
+            key: 'rzp_test_jFtPE0IAzY0xmG',
+            amount: @Model.TotalAmount * 100, // Convert to paisa
+            currency: 'INR',
+            name: 'Your Company Name',
+            description: 'Purchase Courses',
+            handler: function (response) {
+                var razorpayPaymentId = response.razorpay_payment_id;
+                // Make an AJAX request to confirm payment on the server
+                $.post('/User/ConfirmPayment', { razorpayPaymentId: razorpayPaymentId }, function (data) {
+                    $('#paymentSuccess').show();
+                    $('#checkoutButton').hide();
+                    $('#videoSection').show();
+                    // Display the purchased videos
+                    var videos = $('#videos');
+                    videos.empty();
+                    data.forEach(function (video) {
+                        var videoElement = $('<iframe width="560" height="315" frameborder="0" allowfullscreen></iframe>');
+                        videoElement.attr('src', VideoHelper.GetEmbedUrl(video.VideoUrl));
+                        videos.append('<h4>' + video.TopicName + '</h4>').append(videoElement);
+                    });
+                });
+            }
+        };
+
+        var checkoutButton = document.getElementById('checkoutButton');
+        checkoutButton.onclick = function () {
+            var rzp = new Razorpay(razorpayOptions);
+            rzp.open();
+        };
+
+        function getEmbedUrl(videoUrl) {
+            if (videoUrl.includes("youtube.com/watch")) {
+                return videoUrl.replace("watch?v=", "embed/");
+            } else if (videoUrl.includes("youtu.be/")) {
+                return videoUrl.replace("youtu.be/", "youtube.com/embed/");
+            } else {
+                return videoUrl;
+            }
+        }
+    </script>
+    }

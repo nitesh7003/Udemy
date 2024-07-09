@@ -1,0 +1,24 @@
+﻿.plan-container {
+    margin-top: 50px;
+}
+
+.plan {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+}
+
+    .plan h2 {
+        margin-bottom: 20px;
+    }
+
+.plan-price {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.plan-btn {
+    margin-top: 20px;
+}

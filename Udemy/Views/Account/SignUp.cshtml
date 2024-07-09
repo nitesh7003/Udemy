@@ -1,0 +1,64 @@
+﻿@model Udemy.Models.SignUpViewModel
+@{
+    Layout = "_SignUpLayout"; // Use the new layout
+    ViewData["Title"] = "Sign Up";
+}
+
+<style>
+    /* Custom CSS to adjust button size and remove background */
+    .btn-light {
+        background-color: transparent;
+        border: none;
+        padding: 0;
+    }
+
+        .btn-light img {
+            max-width: 24px; /* Adjust the size as needed */
+            max-height: 24px; /* Adjust the size as needed */
+            margin-right: 5px; /* Optional: Adjust the spacing between icon and text */
+        }
+</style>
+
+<div class="container">
+    <div class="row justify-content-center">
+        <!-- Left side: Image -->
+        <div class="col-md-6">
+            <img src="~/images/Screenshot 2024-07-02 220442.png" alt="Screenshot" class="img-fluid">
+        </div>
+
+        <!-- Right side: Sign Up form -->
+        <div class="col-md-6">
+            <h2>Sign up and start learning</h2>
+            <form asp-action="SignUp" method="post">
+                <div class="form-group">
+                    <label for="FullName">Full name</label>
+                    <input type="text" class="form-control" id="FullName" name="FullName" required>
+                </div>
+                <div class="form-group">
+                    <label for="Email">Email</label>
+                    <input type="email" class="form-control" id="Email" name="Email" required>
+                </div>
+                <div class="form-group">
+                    <label for="Password">Password</label>
+                    <input type="password" class="form-control" id="Password" name="Password" required>
+                </div>
+                <div class="form-check">
+                    <input type="checkbox" class="form-check-input" id="SpecialOffers" name="SpecialOffers">
+                    <label class="form-check-label" for="SpecialOffers">Send me special offers, personalized recommendations, and learning tips.</label>
+                </div>
+                <button type="submit" class="btn btn-primary btn-signup">Sign up</button>
+            </form>
+            <hr>
+            <p>Other log in options</p>
+            <button class="btn btn-light"><img src="https://developers.google.com/identity/images/g-logo.png" alt="Google Log In"> Google</button>
+            <button class="btn btn-light"><img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" alt="Facebook Log In"> Facebook</button>
+            <button class="btn btn-light"><img src="https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg" alt="Apple Log In"> Apple</button>
+            <p>Don't have an account? <a asp-controller="Account" asp-action="SignUp">Sign up</a></p>
+            <p>Log in with your organization</p>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

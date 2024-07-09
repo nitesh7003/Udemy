@@ -1,0 +1,55 @@
+﻿
+
+.trend-card-container {
+    display: flex;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    padding: 20px;
+    max-width: 1200px;
+    width: 100%;
+    align-items: center;
+}
+
+.trend-card-content {
+    flex: 1;
+    padding-right: 20px;
+    min-width: 50%;
+}
+
+.trend-card-image {
+    flex: 1;
+    min-width: 50%;
+}
+
+    .trend-card-image img {
+        width: 100%;
+        height: auto;
+        border-radius: 8px;
+    }
+
+h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.btn-report {
+    display: inline-block;
+    padding: 10px 15px;
+    border: 1px solid #000;
+    border-radius: 4px;
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+    .btn-report:hover {
+        background-color: #f0f0f0;
+    }

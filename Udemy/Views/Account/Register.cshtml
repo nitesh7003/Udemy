@@ -1,0 +1,109 @@
+﻿@model Udemy.Models.RegisterViewModel
+
+@{
+    Layout = "Registerlayout";
+    ViewData["Title"] = "Register";
+}
+
+<h2 class="mb-4">@ViewData["Title"]</h2>
+
+<form asp-action="Register" method="post" class="needs-validation" novalidate>
+    <div class="row">
+        <div class="col-md-6 mb-3">
+            <label asp-for="FirstName" class="control-label">First Name</label>
+            <input asp-for="FirstName" class="form-control" />
+            <span asp-validation-for="FirstName" class="text-danger"></span>
+        </div>
+        <div class="col-md-6 mb-3">
+            <label asp-for="LastName" class="control-label">Last Name</label>
+            <input asp-for="LastName" class="form-control" />
+            <span asp-validation-for="LastName" class="text-danger"></span>
+        </div>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="WorkEmail" class="control-label">Work Email</label>
+        <input asp-for="WorkEmail" class="form-control" />
+        <span asp-validation-for="WorkEmail" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="PhoneNumber" class="control-label">Phone Number</label>
+        <input asp-for="PhoneNumber" class="form-control" />
+        <span asp-validation-for="PhoneNumber" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="Location" class="control-label">Location</label>
+        <select asp-for="Location" class="form-control">
+            <option value="">Select...</option>
+            <option value="US">United States</option>
+            <option value="CA">Canada</option>
+            <!-- Add more options as needed -->
+        </select>
+        <span asp-validation-for="Location" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="CompanyName" class="control-label">Company Name</label>
+        <input asp-for="CompanyName" class="form-control" />
+        <span asp-validation-for="CompanyName" class="text-danger"></span>
+    </div>
+
+    <div class="row">
+        <div class="col-md-6 mb-3">
+            <label asp-for="CompanySize" class="control-label">Company Size</label>
+            <select asp-for="CompanySize" class="form-control">
+                <option value="">Select...</option>
+                <option value="Small">Small</option>
+                <option value="Medium">Medium</option>
+                <option value="Large">Large</option>
+            </select>
+            <span asp-validation-for="CompanySize" class="text-danger"></span>
+        </div>
+        <div class="col-md-6 mb-3">
+            <label asp-for="NumberOfLearners" class="control-label">Number of Learners</label>
+            <select asp-for="NumberOfLearners" class="form-control">
+                <option value="">Select...</option>
+                <option value="1-10">1-10</option>
+                <option value="11-50">11-50</option>
+                <option value="51-200">51-200</option>
+                <option value="201-500">201-500</option>
+                <option value="501+">501+</option>
+            </select>
+            <span asp-validation-for="NumberOfLearners" class="text-danger"></span>
+        </div>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="JobTitle" class="control-label">Job Title</label>
+        <input asp-for="JobTitle" class="form-control" />
+        <span asp-validation-for="JobTitle" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="JobLevel" class="control-label">Job Level</label>
+        <select asp-for="JobLevel" class="form-control">
+            <option value="">Select...</option>
+            <option value="Entry">Entry</option>
+            <option value="Mid">Mid</option>
+            <option value="Senior">Senior</option>
+            <option value="Executive">Executive</option>
+        </select>
+        <span asp-validation-for="JobLevel" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="TrainingNeeds" class="control-label">Training Needs</label>
+        <textarea asp-for="TrainingNeeds" class="form-control" rows="4"></textarea>
+        <span asp-validation-for="TrainingNeeds" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
